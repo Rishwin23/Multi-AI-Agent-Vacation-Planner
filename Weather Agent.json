@@ -1,0 +1,100 @@
+{
+  "name": "Weather Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "workflowInputs": {
+          "values": [
+            {
+              "name": "destination"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "4ce807be-f206-466a-b441-f4fe87ddec33",
+      "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "tableId": "Weather",
+        "returnAll": true,
+        "filters": {
+          "conditions": []
+        }
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        224,
+        0
+      ],
+      "id": "d6ed30f4-a7fd-45ad-a6fc-ee585e5e3725",
+      "name": "Get many rows",
+      "credentials": {
+        "supabaseApi": {
+          "id": "grgrsgwoUFwskyKU",
+          "name": "Supabase account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('When Executed by Another Workflow').first().json;\n\nconst destination = String(input.destination || '')\n  .trim()\n  .toLowerCase();\n\nconst rows = $input.all().map(item => item.json);\n\nconst matches = rows.filter(row => {\n  const d = String(row.destination || '')\n    .trim()\n    .toLowerCase();\n\n  return d === destination;\n});\n\nreturn [{\n  json: {\n    requested_destination: destination,\n    total_rows: rows.length,\n    matching_rows: matches.length,\n    weather: matches.slice(0, 5).map(row => ({\n      destination: row.destination,\n      temperature: row.temperature,\n      rainfall: row.rainfall,\n      humidity: row.humidity\n    }))\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        448,
+        0
+      ],
+      "id": "ab763e33-1431-4976-aa1b-4ff1e6db7c53",
+      "name": "Code in JavaScript"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Get many rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get many rows": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "d9c2f095-c0b0-4d22-a71d-c4e8cc967f51",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "b160ecefec82cb8a1df84a9e22ced50664bb22834dbcff752f70b049e916d309"
+  },
+  "nodeGroups": [],
+  "id": "Bk8NLBRs5kkwZhrC",
+  "tags": []
+}

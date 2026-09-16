@@ -1,0 +1,21 @@
+[
+  "backend/tests/test_planner.py::test_10_rag_query_and_retrieval",
+  "backend/tests/test_planner.py::test_11_conversation_history",
+  "backend/tests/test_planner.py::test_12_user_memory_propagation",
+  "backend/tests/test_planner.py::test_1_basic_trip_request",
+  "backend/tests/test_planner.py::test_2_budget_constrained_request",
+  "backend/tests/test_planner.py::test_3_different_destinations[Banglore-3 days trip to Bangalore]",
+  "backend/tests/test_planner.py::test_3_different_destinations[Cochin-Weekend getaway to Cochin]",
+  "backend/tests/test_planner.py::test_3_different_destinations[Delhi-Sightseeing tour of Delhi for 5 days]",
+  "backend/tests/test_planner.py::test_3_different_destinations[Jaipur-4-day heritage tour of Jaipur under 30k]",
+  "backend/tests/test_planner.py::test_4_different_durations[10 days extended holiday in Jaipur-10]",
+  "backend/tests/test_planner.py::test_4_different_durations[5-day Goa vacation-5]",
+  "backend/tests/test_planner.py::test_4_different_durations[7 days family trip to Cochin-7]",
+  "backend/tests/test_planner.py::test_4_different_durations[Weekend in Banglore-2]",
+  "backend/tests/test_planner.py::test_4_different_durations[Weekend in Banglore-3]",
+  "backend/tests/test_planner.py::test_5_missing_optional_preferences",
+  "backend/tests/test_planner.py::test_6_invalid_requests",
+  "backend/tests/test_planner.py::test_7_n8n_fallback_path",
+  "backend/tests/test_planner.py::test_8_gemini_fallback_path",
+  "backend/tests/test_planner.py::test_9_elevenlabs_service"
+]

@@ -1,0 +1,81 @@
+{
+  "name": "Budget Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "workflowInputs": {
+          "values": [
+            {
+              "name": "flight_cost",
+              "type": "number"
+            },
+            {
+              "name": "hotel_cost",
+              "type": "number"
+            },
+            {
+              "name": "food_cost",
+              "type": "number"
+            },
+            {
+              "name": "taxi_cost",
+              "type": "number"
+            },
+            {
+              "name": "activities",
+              "type": "number"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -144,
+        -16
+      ],
+      "id": "d2f96e75-17fc-48a9-a765-979c2944f059",
+      "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('When Executed by Another Workflow').first().json;\n\nconst flightCost = Number(input.flight_cost || 0);\nconst hotelCost = Number(input.hotel_cost || 0);\nconst foodCost = Number(input.food_cost || 0);\nconst taxiCost = Number(input.taxi_cost || 0);\nconst activities = Number(input.activities || 0);\n\nconst totalBudget =\n  flightCost +\n  hotelCost +\n  foodCost +\n  taxiCost +\n  activities;\n\nreturn [{\n  json: {\n    flight_cost: flightCost,\n    hotel_cost: hotelCost,\n    food_cost: foodCost,\n    taxi_cost: taxiCost,\n    activities: activities,\n    total_budget: totalBudget\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        80,
+        -16
+      ],
+      "id": "334c76b3-c7b3-4d8a-839b-328b45318f7d",
+      "name": "Code in JavaScript"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "0be385ce-b190-47af-90d5-b709d36bb29a",
+  "meta": {
+    "instanceId": "b160ecefec82cb8a1df84a9e22ced50664bb22834dbcff752f70b049e916d309"
+  },
+  "nodeGroups": [],
+  "id": "7AEBLwrisppHttim",
+  "tags": []
+}

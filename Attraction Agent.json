@@ -1,0 +1,100 @@
+{
+  "name": "Attraction Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "workflowInputs": {
+          "values": [
+            {
+              "name": "destination"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -256,
+        16
+      ],
+      "id": "1de70999-dcf8-4fed-b242-f222bd3627a9",
+      "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "tableId": "Attractions",
+        "returnAll": true,
+        "filters": {
+          "conditions": []
+        }
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        -32,
+        16
+      ],
+      "id": "95ec6914-7a9c-4ff3-8422-2a975e061ecf",
+      "name": "Get many rows",
+      "credentials": {
+        "supabaseApi": {
+          "id": "grgrsgwoUFwskyKU",
+          "name": "Supabase account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('When Executed by Another Workflow').first().json;\n\nconst destination = String(input.destination || '')\n  .trim()\n  .toLowerCase();\n\nconst attractions = $input.all().map(item => item.json);\n\nconst matches = attractions.filter(a => {\n  const city = String(a.destination || '')\n    .trim()\n    .toLowerCase();\n\n  return city === destination;\n});\n\nreturn matches.slice(0, 5).map(a => ({\n  json: {\n    attraction_name: a.attraction_name,\n    entry_fee: a.entry_fee,\n    destination: a.destination,\n    timings: a.timings,\n    category: a.category\n  }\n}));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        192,
+        16
+      ],
+      "id": "f75d74f9-75be-416f-9767-da238fd5e1e5",
+      "name": "Code in JavaScript"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Get many rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get many rows": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "884511f9-8789-458d-b406-acf52b5d88c9",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "b160ecefec82cb8a1df84a9e22ced50664bb22834dbcff752f70b049e916d309"
+  },
+  "nodeGroups": [],
+  "id": "DQXsQBs01XIFmw9c",
+  "tags": []
+}

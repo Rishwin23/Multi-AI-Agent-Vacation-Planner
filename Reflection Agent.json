@@ -1,0 +1,67 @@
+{
+  "name": "Reflection Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "workflowInputs": {
+          "values": [
+            {
+              "name": "destination",
+              "type": "string"
+            },
+            {
+              "name": "budget",
+              "type": "number"
+            },
+            {
+              "name": "total_cost",
+              "type": "number"
+            },
+            {
+              "name": "itinerary_text",
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        -300,
+        100
+      ],
+      "id": "ref-trigger-001",
+      "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('When Executed by Another Workflow').first().json;\n\nconst destination = String(input.destination || '').trim();\nconst targetBudget = Number(input.budget || 0);\nconst totalCost = Number(input.total_cost || 0);\nconst itineraryText = String(input.itinerary_text || '');\n\nconst checks = [];\nconst warnings = [];\nconst suggestions = [];\n\n// 1. Budget Verification Check\nconst budgetPassed = (targetBudget <= 0) || (totalCost <= targetBudget);\nchecks.push({\n  aspect: 'Budget Verification',\n  passed: budgetPassed,\n  details: `Estimated cost ₹${totalCost.toLocaleString()} vs Target budget ₹${targetBudget.toLocaleString()}`\n});\n\nif (!budgetPassed) {\n  const diff = totalCost - targetBudget;\n  warnings.push(`Itinerary cost exceeds target budget by ₹${diff.toLocaleString()}.`);\n  suggestions.push('Consider choosing 3-star lodging or off-peak flights to reduce expenses.');\n}\n\n// 2. Destination Alignment Check\nconst destMentioned = destination ? itineraryText.toLowerCase().includes(destination.toLowerCase()) : true;\nchecks.push({\n  aspect: 'Destination Alignment',\n  passed: destMentioned,\n  details: destMentioned ? `Itinerary specifically tailored for ${destination}` : `Destination ${destination} not prominent in draft`\n});\n\n// 3. Completeness Verification\nconst hasFlights = itineraryText.toLowerCase().includes('flight') || itineraryText.toLowerCase().includes('airline');\nconst hasHotels = itineraryText.toLowerCase().includes('hotel') || itineraryText.toLowerCase().includes('stay');\nconst hasWeather = itineraryText.toLowerCase().includes('weather') || itineraryText.toLowerCase().includes('temperature');\nconst hasAttractions = itineraryText.toLowerCase().includes('day') || itineraryText.toLowerCase().includes('attraction');\n\nchecks.push({\n  aspect: 'Component Completeness',\n  passed: hasFlights && hasHotels && hasWeather && hasAttractions,\n  details: `Sections verified: Flights (${hasFlights ? '✓' : '✗'}), Hotel (${hasHotels ? '✓' : '✗'}), Weather (${hasWeather ? '✓' : '✗'}), Attractions (${hasAttractions ? '✓' : '✗'})`\n});\n\nconst passedCount = checks.filter(c => c.passed).length;\nconst score = Math.round((passedCount / checks.length) * 100);\n\nreturn [{\n  json: {\n    is_valid: true,\n    score: score,\n    checks: checks,\n    warnings: warnings,\n    suggestions: suggestions\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        0,
+        100
+      ],
+      "id": "ref-code-001",
+      "name": "Critic & Reflection Logic"
+    }
+  ],
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Critic & Reflection Logic",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

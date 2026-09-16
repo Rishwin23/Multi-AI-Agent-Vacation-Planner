@@ -1,0 +1,607 @@
+{
+  "name": "Planner Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "planner-agent",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -576,
+        -60
+      ],
+      "id": "webhook-trigger-planner",
+      "name": "Webhook Trigger",
+      "webhookId": "planner-agent"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -576,
+        112
+      ],
+      "id": "bf4706bb-c7a5-49b2-a432-6167414e82e8",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "ed4e7ffc-ad12-408d-a149-265bf4dcfff5",
+              "name": "destination",
+              "value": "banglore",
+              "type": "string"
+            },
+            {
+              "id": "6ada3a53-6e39-453b-9202-9fa448752386",
+              "name": "sort_by",
+              "value": "price",
+              "type": "string"
+            },
+            {
+              "id": "148c25f3-0a7f-4e62-96b8-f8e6e5c88cb9",
+              "name": "budget",
+              "value": 30000,
+              "type": "number"
+            },
+            {
+              "id": "08047fb8-efb2-424a-ad0a-5558ec153823",
+              "name": "min_rating",
+              "value": 4,
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        -320,
+        112
+      ],
+      "id": "421b1906-3e60-4bdb-9209-6977157ce236",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "xpB3wU30AHsqYdRv",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/xpB3wU30AHsqYdRv",
+          "cachedResultName": "Flight Agent"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "destination": "={{ $json.destination || $json.body?.destination }}",
+            "sort_by": "={{ $json.sort_by || $json.body?.sort_by }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "destination",
+              "displayName": "destination",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            },
+            {
+              "id": "sort_by",
+              "displayName": "sort_by",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.3,
+      "position": [
+        160,
+        -224
+      ],
+      "id": "9023c954-1b01-4575-9749-f1989cf503d0",
+      "name": "Call 'Flight Agent'"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "h4EaSSRvGEAwUfjv",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/h4EaSSRvGEAwUfjv",
+          "cachedResultName": "Hotel Agent"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "budget": "={{ $json.budget || $json.body?.budget }}",
+            "min_rating": "={{ $json.min_rating || $json.body?.min_rating }}",
+            "city": "={{ $json.destination || $json.body?.destination }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "city",
+              "displayName": "city",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            },
+            {
+              "id": "budget",
+              "displayName": "budget",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "number",
+              "removed": false
+            },
+            {
+              "id": "min_rating",
+              "displayName": "min_rating",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "number",
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.3,
+      "position": [
+        160,
+        -32
+      ],
+      "id": "fa37b702-b003-4bba-a66f-987431ce3e98",
+      "name": "Call 'Hotel Agent'"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "Bk8NLBRs5kkwZhrC",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/Bk8NLBRs5kkwZhrC",
+          "cachedResultName": "Weather Agent"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "destination": "={{ $json.destination || $json.body?.destination }}"
+          },
+          "matchingColumns": [
+            "destination"
+          ],
+          "schema": [
+            {
+              "id": "destination",
+              "displayName": "destination",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.3,
+      "position": [
+        160,
+        128
+      ],
+      "id": "83935674-46a0-49ed-ba52-185f8ac60ebf",
+      "name": "Call 'Weather Agent'",
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "7AEBLwrisppHttim",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/7AEBLwrisppHttim",
+          "cachedResultName": "Budget Agent"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "flight_cost": 5000,
+            "hotel_cost": 6000,
+            "food_cost": 7000,
+            "taxi_cost": 2000,
+            "activities": 1000
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "flight_cost",
+              "displayName": "flight_cost",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "number",
+              "removed": false
+            },
+            {
+              "id": "hotel_cost",
+              "displayName": "hotel_cost",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "number",
+              "removed": false
+            },
+            {
+              "id": "food_cost",
+              "displayName": "food_cost",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "number",
+              "removed": false
+            },
+            {
+              "id": "taxi_cost",
+              "displayName": "taxi_cost",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "number",
+              "removed": false
+            },
+            {
+              "id": "activities",
+              "displayName": "activities",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "number",
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.3,
+      "position": [
+        160,
+        320
+      ],
+      "id": "4546fd94-a0af-4cd9-a7a6-dda089ef4c5d",
+      "name": "Call 'Budget Agent'"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "DQXsQBs01XIFmw9c",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/DQXsQBs01XIFmw9c",
+          "cachedResultName": "Attraction Agent"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "destination": "={{ $json.destination || $json.body?.destination }}"
+          },
+          "matchingColumns": [
+            "city"
+          ],
+          "schema": [
+            {
+              "id": "destination",
+              "displayName": "destination",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.3,
+      "position": [
+        160,
+        528
+      ],
+      "id": "1689eb3f-0f33-4df8-8a5a-e4056ff9a832",
+      "name": "Call 'Attraction Agent'",
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        496,
+        -48
+      ],
+      "id": "b370bc1e-72f0-44d0-b7b4-098896c80ce6",
+      "name": "Merge"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        656,
+        128
+      ],
+      "id": "05b11174-b3c0-4d86-ad66-cf38a56dc112",
+      "name": "Merge1"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        800,
+        304
+      ],
+      "id": "3366596b-caf5-4375-8ca0-3c392e7c0cc7",
+      "name": "Merge2"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        992,
+        512
+      ],
+      "id": "e8fc47ff-d8bc-4cc3-997c-6a100522dfc9",
+      "name": "Merge3"
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all().map(item => item.json);\n\nconst flights = items\n  .filter(item => item.flight_id !== undefined)\n  .slice(0, 5);\n\nconst hotels = items\n  .filter(item => item.hotel_id !== undefined)\n  .slice(0, 5);\n\nconst attractions = items\n  .filter(item => item.attraction_name !== undefined)\n  .slice(0, 5);\n\nlet weather = [];\n\nfor (const item of items) {\n  if (Array.isArray(item.weather)) {\n    weather.push(...item.weather);\n  }\n\n  if (item.temperature !== undefined) {\n    weather.push({\n      destination: item.destination,\n      temperature: item.temperature,\n      rainfall: item.rainfall,\n      humidity: item.humidity\n    });\n  }\n}\n\nweather = weather.slice(0, 5);\n\nconst budget = items.find(item => item.total_budget !== undefined);\n\nreturn [{\n  json: {\n    flights,\n    hotels,\n    weather,\n    budget: budget || {},\n    attractions\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1216,
+        512
+      ],
+      "id": "bb210ce5-2655-4e82-b08f-aac95438defc",
+      "name": "Code in JavaScript"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook Trigger": {
+      "main": [
+        [
+          {
+            "node": "Call 'Flight Agent'",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Call 'Hotel Agent'",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Call 'Weather Agent'",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Call 'Budget Agent'",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Call 'Attraction Agent'",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Call 'Flight Agent'",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Call 'Hotel Agent'",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Call 'Weather Agent'",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Call 'Budget Agent'",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Call 'Attraction Agent'",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call 'Weather Agent'": {
+      "main": [
+        [
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Call 'Budget Agent'": {
+      "main": [
+        [
+          {
+            "node": "Merge2",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Call 'Hotel Agent'": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Call 'Attraction Agent'": {
+      "main": [
+        [
+          {
+            "node": "Merge3",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Call 'Flight Agent'": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge1": {
+      "main": [
+        [
+          {
+            "node": "Merge2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge2": {
+      "main": [
+        [
+          {
+            "node": "Merge3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge3": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "6a045128-a54b-4b46-8ae1-141d08cca01d",
+  "meta": {
+    "instanceId": "b160ecefec82cb8a1df84a9e22ced50664bb22834dbcff752f70b049e916d309"
+  },
+  "nodeGroups": [],
+  "id": "eEhmdUK6PUS3jB7J",
+  "tags": []
+}

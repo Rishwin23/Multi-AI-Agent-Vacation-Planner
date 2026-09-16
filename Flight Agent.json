@@ -1,0 +1,103 @@
+{
+  "name": "Flight Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "workflowInputs": {
+          "values": [
+            {
+              "name": "destination"
+            },
+            {
+              "name": "sort_by"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "b41d1932-fc21-491a-a7ae-d65a706fe445",
+      "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "tableId": "Flights",
+        "returnAll": true,
+        "filters": {
+          "conditions": []
+        }
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        224,
+        0
+      ],
+      "id": "063ffbc8-2199-40c2-bcb1-6ed044dcf80c",
+      "name": "Get many rows",
+      "credentials": {
+        "supabaseApi": {
+          "id": "grgrsgwoUFwskyKU",
+          "name": "Supabase account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const flights = $input.all().map(item => item.json);\n\nconst input = $('When Executed by Another Workflow').first().json;\n\nconst destination = String(input.destination || '')\n  .trim()\n  .toLowerCase();\n\nconst sortBy = String(input.sort_by || '')\n  .trim()\n  .toLowerCase();\n\nif (!destination) {\n  return [{\n    json: {\n      error: \"Destination was not provided\"\n    }\n  }];\n}\n\nconst matches = flights.filter(f => {\n  const flightDestination = String(f.destination || '')\n    .trim()\n    .toLowerCase();\n\n  return flightDestination === destination;\n});\n\nif (sortBy === \"price\") {\n  matches.sort((a, b) =>\n    Number(a.price) - Number(b.price)\n  );\n}\n\nif (sortBy === \"duration\" || sortBy === \"duration_minutes\") {\n  matches.sort((a, b) =>\n    Number(a.duration_minutes) - Number(b.duration_minutes)\n  );\n}\n\nreturn matches.slice(0, 5).map(f => ({\n  json: f\n}));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        448,
+        0
+      ],
+      "id": "5ef8acbd-ff68-4b3d-a6d8-9ae5a7ab2086",
+      "name": "Code in JavaScript"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Get many rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get many rows": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "35feafc3-4372-4ac7-b15a-bf239a48dc32",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "b160ecefec82cb8a1df84a9e22ced50664bb22834dbcff752f70b049e916d309"
+  },
+  "nodeGroups": [],
+  "id": "xpB3wU30AHsqYdRv",
+  "tags": []
+}

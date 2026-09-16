@@ -1,0 +1,1001 @@
+attraction_name,city,entry_fee,timings,category
+Red Fort,Delhi,50,9:00 AM - 5:30 PM,Heritage
+India Gate,Delhi,120,9:00 AM - 5:30 PM,Heritage
+Qutub Minar,Delhi,100,9:00 AM - 6:00 PM,Attraction
+Humayun's Tomb,Delhi,180,9:00 AM - 5:30 PM,Heritage
+Lotus Temple,Delhi,50,5:00 AM - 9:00 PM,Religious
+Akshardham Temple,Delhi,0,5:00 AM - 9:00 PM,Religious
+Jama Masjid,Delhi,50,9:00 AM - 6:00 PM,Attraction
+Gurudwara Bangla Sahib,Delhi,40,5:00 AM - 9:00 PM,Religious
+Rashtrapati Bhavan,Delhi,110,9:00 AM - 6:00 PM,Attraction
+Parliament House,Delhi,100,9:00 AM - 6:00 PM,Attraction
+Purana Qila,Delhi,80,9:00 AM - 6:00 PM,Attraction
+Lodhi Garden,Delhi,90,6:00 AM - 6:00 PM,Nature
+National Museum,Delhi,200,10:00 AM - 5:30 PM,Museum
+National Gallery of Modern Art,Delhi,180,10:00 AM - 5:30 PM,Museum
+National Rail Museum,Delhi,170,10:00 AM - 5:30 PM,Museum
+Nehru Planetarium,Delhi,100,10:00 AM - 5:30 PM,Museum
+Gandhi Smriti,Delhi,20,9:00 AM - 6:00 PM,Attraction
+Raj Ghat,Delhi,110,9:00 AM - 6:00 PM,Attraction
+Safdarjung Tomb,Delhi,40,9:00 AM - 5:30 PM,Heritage
+Agrasen Ki Baoli,Delhi,50,9:00 AM - 5:30 PM,Heritage
+Jantar Mantar,Delhi,60,9:00 AM - 6:00 PM,Attraction
+Dilli Haat INA,Delhi,150,9:00 AM - 6:00 PM,Attraction
+Garden of Five Senses,Delhi,10,6:00 AM - 6:00 PM,Nature
+Sunder Nursery,Delhi,90,9:00 AM - 6:00 PM,Attraction
+National Zoological Park,Delhi,50,7:00 AM - 5:30 PM,Wildlife
+Chandni Chowk,Delhi,150,9:00 AM - 6:00 PM,Attraction
+Connaught Place,Delhi,120,9:00 AM - 6:00 PM,Attraction
+ISKCON Temple Delhi,Delhi,30,5:00 AM - 9:00 PM,Religious
+Chhatarpur Temple,Delhi,50,5:00 AM - 9:00 PM,Religious
+Kalkaji Mandir,Delhi,20,5:00 AM - 9:00 PM,Religious
+National Science Centre,Delhi,90,10:00 AM - 5:30 PM,Museum
+Shankar's International Dolls Museum,Delhi,150,10:00 AM - 5:30 PM,Museum
+Crafts Museum,Delhi,110,10:00 AM - 5:30 PM,Museum
+Tughlaqabad Fort,Delhi,130,9:00 AM - 5:30 PM,Heritage
+Mehrauli Archaeological Park,Delhi,50,6:00 AM - 6:00 PM,Nature
+Sanjay Van,Delhi,140,9:00 AM - 6:00 PM,Attraction
+Deer Park Hauz Khas,Delhi,60,6:00 AM - 6:00 PM,Nature
+Hauz Khas Village,Delhi,130,9:00 AM - 6:00 PM,Attraction
+Lal Mandir,Delhi,40,5:00 AM - 9:00 PM,Religious
+Birla Mandir Delhi,Delhi,50,5:00 AM - 9:00 PM,Religious
+Gateway of India,Mumbai,40,9:00 AM - 5:30 PM,Heritage
+Chhatrapati Shivaji Maharaj Terminus,Mumbai,130,9:00 AM - 6:00 PM,Attraction
+Elephanta Caves,Mumbai,120,9:00 AM - 5:30 PM,Heritage
+Marine Drive,Mumbai,30,9:00 AM - 6:00 PM,Attraction
+Chowpatty Beach,Mumbai,0,6:00 AM - 7:00 PM,Beach
+Siddhivinayak Temple,Mumbai,40,5:00 AM - 9:00 PM,Religious
+Haji Ali Dargah,Mumbai,40,5:00 AM - 9:00 PM,Religious
+Sanjay Gandhi National Park,Mumbai,230,7:00 AM - 5:30 PM,Wildlife
+Kanheri Caves,Mumbai,110,9:00 AM - 5:30 PM,Heritage
+Nehru Planetarium Mumbai,Mumbai,170,10:00 AM - 5:30 PM,Museum
+Nehru Science Centre,Mumbai,70,10:00 AM - 5:30 PM,Museum
+Chhatrapati Shivaji Maharaj Vastu Sangrahalaya,Mumbai,120,9:00 AM - 6:00 PM,Attraction
+Dr Bhau Daji Lad Mumbai City Museum,Mumbai,120,10:00 AM - 5:30 PM,Museum
+Mani Bhavan Gandhi Museum,Mumbai,30,10:00 AM - 5:30 PM,Museum
+Mahalaxmi Temple,Mumbai,50,5:00 AM - 9:00 PM,Religious
+Mount Mary Basilica,Mumbai,20,5:00 AM - 9:00 PM,Religious
+Global Vipassana Pagoda,Mumbai,70,9:00 AM - 6:00 PM,Attraction
+Bandra-Worli Sea Link,Mumbai,90,9:00 AM - 6:00 PM,Attraction
+Juhu Beach,Mumbai,0,6:00 AM - 7:00 PM,Beach
+Versova Beach,Mumbai,0,6:00 AM - 7:00 PM,Beach
+Powai Lake,Mumbai,60,6:00 AM - 6:00 PM,Nature
+Hanging Gardens,Mumbai,10,6:00 AM - 6:00 PM,Nature
+Kamala Nehru Park,Mumbai,60,6:00 AM - 6:00 PM,Nature
+Sewri Fort,Mumbai,200,9:00 AM - 5:30 PM,Heritage
+Worli Fort,Mumbai,190,9:00 AM - 5:30 PM,Heritage
+Bandra Fort,Mumbai,170,9:00 AM - 5:30 PM,Heritage
+Colaba Causeway,Mumbai,0,10:00 AM - 10:00 PM,Shopping
+Crawford Market,Mumbai,0,10:00 AM - 10:00 PM,Shopping
+Flora Fountain,Mumbai,150,9:00 AM - 6:00 PM,Attraction
+Jehangir Art Gallery,Mumbai,60,10:00 AM - 5:30 PM,Museum
+National Gallery of Modern Art Mumbai,Mumbai,160,10:00 AM - 5:30 PM,Museum
+Taraporewala Aquarium,Mumbai,100,9:00 AM - 6:00 PM,Attraction
+EsselWorld,Mumbai,1420,10:00 AM - 7:00 PM,Amusement Park
+Water Kingdom,Mumbai,1360,10:00 AM - 7:00 PM,Amusement Park
+Film City Mumbai,Mumbai,1500,10:00 AM - 7:00 PM,Amusement Park
+Aksa Beach,Mumbai,0,6:00 AM - 7:00 PM,Beach
+Gorai Beach,Mumbai,0,6:00 AM - 7:00 PM,Beach
+Khotachiwadi,Mumbai,110,9:00 AM - 6:00 PM,Attraction
+Banganga Tank,Mumbai,90,9:00 AM - 6:00 PM,Attraction
+Rajabai Clock Tower,Mumbai,140,9:00 AM - 5:30 PM,Heritage
+Victoria Memorial,Kolkata,180,9:00 AM - 5:30 PM,Heritage
+Howrah Bridge,Kolkata,100,9:00 AM - 5:30 PM,Heritage
+Indian Museum,Kolkata,160,10:00 AM - 5:30 PM,Museum
+St Paul's Cathedral,Kolkata,40,5:00 AM - 9:00 PM,Religious
+St John's Church,Kolkata,30,5:00 AM - 9:00 PM,Religious
+Dakshineswar Kali Temple,Kolkata,40,5:00 AM - 9:00 PM,Religious
+Kalighat Kali Temple,Kolkata,40,5:00 AM - 9:00 PM,Religious
+Belur Math,Kolkata,0,5:00 AM - 9:00 PM,Religious
+Marble Palace,Kolkata,200,9:00 AM - 5:30 PM,Heritage
+Birla Planetarium Kolkata,Kolkata,100,10:00 AM - 5:30 PM,Museum
+Science City Kolkata,Kolkata,70,10:00 AM - 5:30 PM,Museum
+M.P. Birla Planetarium,Kolkata,40,10:00 AM - 5:30 PM,Museum
+Alipore Zoological Gardens,Kolkata,500,7:00 AM - 5:30 PM,Wildlife
+Maidan,Kolkata,100,9:00 AM - 6:00 PM,Attraction
+Prinsep Ghat,Kolkata,120,9:00 AM - 6:00 PM,Attraction
+Babughat,Kolkata,30,9:00 AM - 6:00 PM,Attraction
+Eden Gardens,Kolkata,90,6:00 AM - 6:00 PM,Nature
+Mother House,Kolkata,80,9:00 AM - 6:00 PM,Attraction
+Tagore House,Kolkata,90,9:00 AM - 6:00 PM,Attraction
+Jorasanko Thakur Bari,Kolkata,40,9:00 AM - 6:00 PM,Attraction
+National Library of India,Kolkata,90,9:00 AM - 6:00 PM,Attraction
+Academy of Fine Arts,Kolkata,50,9:00 AM - 6:00 PM,Attraction
+Birla Mandir Kolkata,Kolkata,0,5:00 AM - 9:00 PM,Religious
+Raj Bhavan Kolkata,Kolkata,120,9:00 AM - 6:00 PM,Attraction
+Fort William Kolkata,Kolkata,160,9:00 AM - 5:30 PM,Heritage
+Nicco Park,Kolkata,1260,10:00 AM - 7:00 PM,Amusement Park
+Eco Park Kolkata,Kolkata,70,6:00 AM - 6:00 PM,Nature
+Millennium Park,Kolkata,80,6:00 AM - 6:00 PM,Nature
+Indian Botanical Garden,Kolkata,40,6:00 AM - 6:00 PM,Nature
+Kolkata Race Course,Kolkata,100,9:00 AM - 6:00 PM,Attraction
+Nakhoda Mosque,Kolkata,30,5:00 AM - 9:00 PM,Religious
+St Thomas Church Kolkata,Kolkata,50,5:00 AM - 9:00 PM,Religious
+South Park Street Cemetery,Kolkata,40,6:00 AM - 6:00 PM,Nature
+Writers' Building,Kolkata,190,9:00 AM - 5:30 PM,Heritage
+BBD Bagh,Kolkata,140,9:00 AM - 6:00 PM,Attraction
+New Town Eco Park,Kolkata,100,6:00 AM - 6:00 PM,Nature
+Kolkata Marble Palace,Kolkata,180,9:00 AM - 5:30 PM,Heritage
+Rabindra Sarobar,Kolkata,130,9:00 AM - 6:00 PM,Attraction
+Birla Industrial and Technological Museum,Kolkata,180,10:00 AM - 5:30 PM,Museum
+Netaji Bhawan,Kolkata,140,9:00 AM - 6:00 PM,Attraction
+Marina Beach,Chennai,0,6:00 AM - 7:00 PM,Beach
+Kapaleeshwarar Temple,Chennai,30,5:00 AM - 9:00 PM,Religious
+Fort St George,Chennai,150,9:00 AM - 5:30 PM,Heritage
+Government Museum Chennai,Chennai,90,10:00 AM - 5:30 PM,Museum
+San Thome Basilica,Chennai,20,5:00 AM - 9:00 PM,Religious
+Guindy National Park,Chennai,220,7:00 AM - 5:30 PM,Wildlife
+Arignar Anna Zoological Park,Chennai,50,7:00 AM - 5:30 PM,Wildlife
+Valluvar Kottam,Chennai,20,9:00 AM - 6:00 PM,Attraction
+Sri Parthasarathy Temple,Chennai,10,5:00 AM - 9:00 PM,Religious
+Ashtalakshmi Temple,Chennai,50,5:00 AM - 9:00 PM,Religious
+Vadapalani Murugan Temple,Chennai,40,5:00 AM - 9:00 PM,Religious
+Shirdi Sai Baba Temple Mylapore,Chennai,30,5:00 AM - 9:00 PM,Religious
+St Thomas Mount,Chennai,140,9:00 AM - 6:00 PM,Attraction
+Chennai Lighthouse,Chennai,100,9:00 AM - 6:00 PM,Attraction
+Elliot's Beach,Chennai,0,6:00 AM - 7:00 PM,Beach
+Besant Nagar Beach,Chennai,0,6:00 AM - 7:00 PM,Beach
+Semmozhi Poonga,Chennai,90,9:00 AM - 6:00 PM,Attraction
+Birla Planetarium Chennai,Chennai,140,10:00 AM - 5:30 PM,Museum
+Madras Crocodile Bank,Chennai,50,9:00 AM - 6:00 PM,Attraction
+DakshinaChitra,Chennai,60,9:00 AM - 6:00 PM,Attraction
+Muttukadu Boat House,Chennai,130,9:00 AM - 6:00 PM,Attraction
+MGR Memorial,Chennai,170,9:00 AM - 5:30 PM,Heritage
+Anna Memorial,Chennai,160,9:00 AM - 5:30 PM,Heritage
+Vivekananda House,Chennai,100,9:00 AM - 6:00 PM,Attraction
+National Art Gallery Chennai,Chennai,180,10:00 AM - 5:30 PM,Museum
+Kalakshetra Foundation,Chennai,140,9:00 AM - 6:00 PM,Attraction
+Cholamandal Artists' Village,Chennai,80,9:00 AM - 6:00 PM,Attraction
+Arignar Anna Memorial,Chennai,190,9:00 AM - 5:30 PM,Heritage
+Ripon Building,Chennai,30,9:00 AM - 5:30 PM,Heritage
+Theosophical Society Adyar,Chennai,150,9:00 AM - 6:00 PM,Attraction
+Broken Bridge Chennai,Chennai,110,9:00 AM - 5:30 PM,Heritage
+Kishkinta Theme Park,Chennai,800,10:00 AM - 7:00 PM,Amusement Park
+VGP Universal Kingdom,Chennai,980,10:00 AM - 7:00 PM,Amusement Park
+VGP Marine Kingdom,Chennai,1430,10:00 AM - 7:00 PM,Amusement Park
+Queens Land,Chennai,30,9:00 AM - 6:00 PM,Attraction
+Chennai Rail Museum,Chennai,170,10:00 AM - 5:30 PM,Museum
+Chennai Snake Park,Chennai,80,6:00 AM - 6:00 PM,Nature
+Madras War Cemetery,Chennai,60,9:00 AM - 6:00 PM,Attraction
+Mylapore Tank,Chennai,90,9:00 AM - 6:00 PM,Attraction
+San Thome Cathedral,Chennai,10,5:00 AM - 9:00 PM,Religious
+Bangalore Palace,Bengaluru,150,9:00 AM - 5:30 PM,Heritage
+Lalbagh Botanical Garden,Bengaluru,70,6:00 AM - 6:00 PM,Nature
+Cubbon Park,Bengaluru,10,6:00 AM - 6:00 PM,Nature
+Vidhana Soudha,Bengaluru,120,9:00 AM - 6:00 PM,Attraction
+ISKCON Temple Bangalore,Bengaluru,20,5:00 AM - 9:00 PM,Religious
+Bannerghatta Biological Park,Bengaluru,70,6:00 AM - 6:00 PM,Nature
+Tipu Sultan's Summer Palace,Bengaluru,130,9:00 AM - 5:30 PM,Heritage
+Bangalore Fort,Bengaluru,50,9:00 AM - 5:30 PM,Heritage
+Ulsoor Lake,Bengaluru,30,6:00 AM - 6:00 PM,Nature
+Bull Temple,Bengaluru,50,5:00 AM - 9:00 PM,Religious
+Visvesvaraya Industrial and Technological Museum,Bengaluru,160,10:00 AM - 5:30 PM,Museum
+Jawaharlal Nehru Planetarium Bengaluru,Bengaluru,70,10:00 AM - 5:30 PM,Museum
+National Gallery of Modern Art Bengaluru,Bengaluru,170,10:00 AM - 5:30 PM,Museum
+HAL Aerospace Museum,Bengaluru,30,10:00 AM - 5:30 PM,Museum
+Karnataka Chitrakala Parishath,Bengaluru,30,9:00 AM - 6:00 PM,Attraction
+Wonderla Bengaluru,Bengaluru,400,10:00 AM - 7:00 PM,Amusement Park
+Innovative Film City,Bengaluru,970,10:00 AM - 7:00 PM,Amusement Park
+Commercial Street,Bengaluru,110,9:00 AM - 6:00 PM,Attraction
+MG Road Bengaluru,Bengaluru,0,10:00 AM - 10:00 PM,Shopping
+Church Street Bengaluru,Bengaluru,40,5:00 AM - 9:00 PM,Religious
+Freedom Park Bengaluru,Bengaluru,10,6:00 AM - 6:00 PM,Nature
+Bugle Rock Park,Bengaluru,90,6:00 AM - 6:00 PM,Nature
+Sankey Tank,Bengaluru,140,9:00 AM - 6:00 PM,Attraction
+Lumbini Gardens,Bengaluru,30,6:00 AM - 6:00 PM,Nature
+Snow City Bengaluru,Bengaluru,50,9:00 AM - 6:00 PM,Attraction
+Bangalore Aquarium,Bengaluru,30,9:00 AM - 6:00 PM,Attraction
+St Mary's Basilica Bengaluru,Bengaluru,40,5:00 AM - 9:00 PM,Religious
+Dodda Ganapathi Temple,Bengaluru,0,5:00 AM - 9:00 PM,Religious
+Sri Someshwara Temple,Bengaluru,40,5:00 AM - 9:00 PM,Religious
+Agara Lake,Bengaluru,40,6:00 AM - 6:00 PM,Nature
+Kaikondrahalli Lake,Bengaluru,100,6:00 AM - 6:00 PM,Nature
+Nandi Hills,Bengaluru,100,6:00 AM - 6:00 PM,Nature
+Devanahalli Fort,Bengaluru,130,9:00 AM - 5:30 PM,Heritage
+Nrityagram,Bengaluru,40,9:00 AM - 6:00 PM,Attraction
+Art of Living International Center,Bengaluru,20,9:00 AM - 6:00 PM,Attraction
+Shivoham Shiva Temple,Bengaluru,20,5:00 AM - 9:00 PM,Religious
+Jawaharlal Nehru Biological Park,Bengaluru,100,6:00 AM - 6:00 PM,Nature
+Muthyala Maduvu,Bengaluru,110,9:00 AM - 6:00 PM,Attraction
+Bannerghatta Butterfly Park,Bengaluru,90,6:00 AM - 6:00 PM,Nature
+Karnataka Folk Museum,Bengaluru,180,10:00 AM - 5:30 PM,Museum
+Charminar,Hyderabad,130,9:00 AM - 6:00 PM,Attraction
+Golconda Fort,Hyderabad,60,9:00 AM - 5:30 PM,Heritage
+Salar Jung Museum,Hyderabad,200,10:00 AM - 5:30 PM,Museum
+Chowmahalla Palace,Hyderabad,90,9:00 AM - 5:30 PM,Heritage
+Qutb Shahi Tombs,Hyderabad,170,9:00 AM - 5:30 PM,Heritage
+Hussain Sagar Lake,Hyderabad,90,6:00 AM - 6:00 PM,Nature
+Birla Mandir Hyderabad,Hyderabad,10,5:00 AM - 9:00 PM,Religious
+Birla Science Centre,Hyderabad,190,10:00 AM - 5:30 PM,Museum
+Nehru Zoological Park,Hyderabad,230,7:00 AM - 5:30 PM,Wildlife
+Ramoji Film City,Hyderabad,500,10:00 AM - 7:00 PM,Amusement Park
+NTR Gardens,Hyderabad,60,6:00 AM - 6:00 PM,Nature
+Lumbini Park Hyderabad,Hyderabad,100,6:00 AM - 6:00 PM,Nature
+Snow World Hyderabad,Hyderabad,40,9:00 AM - 6:00 PM,Attraction
+Shilparamam,Hyderabad,40,9:00 AM - 6:00 PM,Attraction
+Durgam Cheruvu,Hyderabad,140,9:00 AM - 6:00 PM,Attraction
+Statue of Equality,Hyderabad,140,9:00 AM - 6:00 PM,Attraction
+Mecca Masjid,Hyderabad,110,9:00 AM - 6:00 PM,Attraction
+Purani Haveli,Hyderabad,60,9:00 AM - 6:00 PM,Attraction
+Taramati Baradari,Hyderabad,100,9:00 AM - 6:00 PM,Attraction
+Paigah Tombs,Hyderabad,150,9:00 AM - 5:30 PM,Heritage
+Chilkur Balaji Temple,Hyderabad,30,5:00 AM - 9:00 PM,Religious
+Keesaragutta Temple,Hyderabad,10,5:00 AM - 9:00 PM,Religious
+Osmania University,Hyderabad,100,9:00 AM - 6:00 PM,Attraction
+Nizam's Museum,Hyderabad,90,10:00 AM - 5:30 PM,Museum
+Telangana State Archaeology Museum,Hyderabad,150,10:00 AM - 5:30 PM,Museum
+Laad Bazaar,Hyderabad,0,10:00 AM - 10:00 PM,Shopping
+Tank Bund,Hyderabad,20,9:00 AM - 6:00 PM,Attraction
+Necklace Road,Hyderabad,0,10:00 AM - 10:00 PM,Shopping
+Kasu Brahmananda Reddy National Park,Hyderabad,110,7:00 AM - 5:30 PM,Wildlife
+Mrugavani National Park,Hyderabad,290,7:00 AM - 5:30 PM,Wildlife
+Mahavir Harina Vanasthali National Park,Hyderabad,90,7:00 AM - 5:30 PM,Wildlife
+Wonderla Hyderabad,Hyderabad,460,10:00 AM - 7:00 PM,Amusement Park
+Ocean Park Hyderabad,Hyderabad,50,6:00 AM - 6:00 PM,Nature
+Mount Opera,Hyderabad,120,9:00 AM - 6:00 PM,Attraction
+Ananthagiri Hills,Hyderabad,50,6:00 AM - 6:00 PM,Nature
+Kondapur Botanical Garden,Hyderabad,0,6:00 AM - 6:00 PM,Nature
+Khajaguda Hills,Hyderabad,0,6:00 AM - 6:00 PM,Nature
+Shamirpet Lake,Hyderabad,80,6:00 AM - 6:00 PM,Nature
+Durgam Cheruvu Cable Bridge,Hyderabad,170,9:00 AM - 5:30 PM,Heritage
+NTR Statue,Hyderabad,70,9:00 AM - 6:00 PM,Attraction
+Shaniwar Wada,Pune,120,9:00 AM - 6:00 PM,Attraction
+Aga Khan Palace,Pune,110,9:00 AM - 5:30 PM,Heritage
+Sinhagad Fort,Pune,160,9:00 AM - 5:30 PM,Heritage
+Pataleshwar Cave Temple,Pune,20,5:00 AM - 9:00 PM,Religious
+Dagdusheth Halwai Ganpati Temple,Pune,0,5:00 AM - 9:00 PM,Religious
+Raja Dinkar Kelkar Museum,Pune,180,10:00 AM - 5:30 PM,Museum
+Pune Okayama Friendship Garden,Pune,70,6:00 AM - 6:00 PM,Nature
+Lal Mahal,Pune,110,9:00 AM - 6:00 PM,Attraction
+Parvati Hill,Pune,90,6:00 AM - 6:00 PM,Nature
+Bund Garden,Pune,20,6:00 AM - 6:00 PM,Nature
+Osho Garden,Pune,20,6:00 AM - 6:00 PM,Nature
+Empress Garden,Pune,90,6:00 AM - 6:00 PM,Nature
+Peshwa Udyan,Pune,100,9:00 AM - 6:00 PM,Attraction
+National Defence Academy,Pune,50,9:00 AM - 6:00 PM,Attraction
+Joshi's Museum of Miniature Railways,Pune,160,10:00 AM - 5:30 PM,Museum
+Tribal Museum Pune,Pune,130,10:00 AM - 5:30 PM,Museum
+Peshwa Museum,Pune,170,10:00 AM - 5:30 PM,Museum
+Saras Baug,Pune,110,9:00 AM - 6:00 PM,Attraction
+Vetal Hill,Pune,30,6:00 AM - 6:00 PM,Nature
+Khadakwasla Dam,Pune,100,6:00 AM - 6:00 PM,Nature
+Mulshi Lake,Pune,10,6:00 AM - 6:00 PM,Nature
+Lonavala,Pune,100,9:00 AM - 6:00 PM,Attraction
+Karla Caves,Pune,140,9:00 AM - 5:30 PM,Heritage
+Bhaja Caves,Pune,30,9:00 AM - 5:30 PM,Heritage
+Lohagad Fort,Pune,80,9:00 AM - 5:30 PM,Heritage
+Visapur Fort,Pune,70,9:00 AM - 5:30 PM,Heritage
+Rajmachi Fort,Pune,30,9:00 AM - 5:30 PM,Heritage
+Torna Fort,Pune,190,9:00 AM - 5:30 PM,Heritage
+Rajgad Fort,Pune,30,9:00 AM - 5:30 PM,Heritage
+Purandar Fort,Pune,160,9:00 AM - 5:30 PM,Heritage
+Duke's Nose,Pune,150,9:00 AM - 6:00 PM,Attraction
+Tiger Point Lonavala,Pune,140,9:00 AM - 6:00 PM,Attraction
+Bhushi Dam,Pune,100,6:00 AM - 6:00 PM,Nature
+Kamshet,Pune,50,9:00 AM - 6:00 PM,Attraction
+Pawna Lake,Pune,70,6:00 AM - 6:00 PM,Nature
+Tikona Fort,Pune,20,9:00 AM - 5:30 PM,Heritage
+Bedse Caves,Pune,60,9:00 AM - 5:30 PM,Heritage
+Bhimashankar Temple,Pune,50,5:00 AM - 9:00 PM,Religious
+Bhimashankar Wildlife Sanctuary,Pune,380,7:00 AM - 5:30 PM,Wildlife
+Lavasa,Pune,50,9:00 AM - 6:00 PM,Attraction
+Amber Fort,Jaipur,180,9:00 AM - 5:30 PM,Heritage
+Hawa Mahal,Jaipur,40,9:00 AM - 6:00 PM,Attraction
+City Palace Jaipur,Jaipur,70,9:00 AM - 5:30 PM,Heritage
+Jantar Mantar Jaipur,Jaipur,120,9:00 AM - 6:00 PM,Attraction
+Nahargarh Fort,Jaipur,70,9:00 AM - 5:30 PM,Heritage
+Jaigarh Fort,Jaipur,140,9:00 AM - 5:30 PM,Heritage
+Albert Hall Museum,Jaipur,110,10:00 AM - 5:30 PM,Museum
+Jal Mahal,Jaipur,80,9:00 AM - 6:00 PM,Attraction
+Birla Mandir Jaipur,Jaipur,40,5:00 AM - 9:00 PM,Religious
+Galtaji Temple,Jaipur,30,5:00 AM - 9:00 PM,Religious
+Govind Dev Ji Temple,Jaipur,0,5:00 AM - 9:00 PM,Religious
+Moti Dungri Ganesh Temple,Jaipur,30,5:00 AM - 9:00 PM,Religious
+Sisodia Rani Garden,Jaipur,40,6:00 AM - 6:00 PM,Nature
+Vidyadhar Garden,Jaipur,20,6:00 AM - 6:00 PM,Nature
+Central Park Jaipur,Jaipur,50,6:00 AM - 6:00 PM,Nature
+Ram Niwas Garden,Jaipur,20,6:00 AM - 6:00 PM,Nature
+Anokhi Museum,Jaipur,110,10:00 AM - 5:30 PM,Museum
+Jaipur Wax Museum,Jaipur,170,10:00 AM - 5:30 PM,Museum
+Amrapali Museum,Jaipur,180,10:00 AM - 5:30 PM,Museum
+Dera Amer,Jaipur,140,9:00 AM - 6:00 PM,Attraction
+Chokhi Dhani,Jaipur,150,9:00 AM - 6:00 PM,Attraction
+Nahargarh Biological Park,Jaipur,60,6:00 AM - 6:00 PM,Nature
+Jaigarh Elephant Safari,Jaipur,60,9:00 AM - 6:00 PM,Attraction
+Gaitor Ki Chhatriyan,Jaipur,90,9:00 AM - 6:00 PM,Attraction
+Panna Meena Ka Kund,Jaipur,40,9:00 AM - 6:00 PM,Attraction
+Isarlat Sargasooli,Jaipur,70,9:00 AM - 6:00 PM,Attraction
+City Palace Museum,Jaipur,180,9:00 AM - 5:30 PM,Heritage
+Jawahar Circle,Jaipur,90,9:00 AM - 6:00 PM,Attraction
+World Trade Park Jaipur,Jaipur,70,6:00 AM - 6:00 PM,Nature
+Patrika Gate,Jaipur,50,9:00 AM - 5:30 PM,Heritage
+Raj Mandir Cinema,Jaipur,40,5:00 AM - 9:00 PM,Religious
+Jantar Mantar Observatory,Jaipur,140,9:00 AM - 6:00 PM,Attraction
+Kanak Vrindavan Garden,Jaipur,80,6:00 AM - 6:00 PM,Nature
+Garh Ganesh Temple,Jaipur,20,5:00 AM - 9:00 PM,Religious
+Khole Ke Hanuman Ji Temple,Jaipur,0,5:00 AM - 9:00 PM,Religious
+Maharaniyon Ki Chhatriyan,Jaipur,150,9:00 AM - 6:00 PM,Attraction
+Sisodia Rani Palace and Garden,Jaipur,80,9:00 AM - 5:30 PM,Heritage
+Digamber Jain Temple Jaipur,Jaipur,10,5:00 AM - 9:00 PM,Religious
+Ramgarh Lake,Jaipur,0,6:00 AM - 6:00 PM,Nature
+Samode Palace,Jaipur,40,9:00 AM - 5:30 PM,Heritage
+City Palace Udaipur,Udaipur,160,9:00 AM - 5:30 PM,Heritage
+Lake Pichola,Udaipur,100,6:00 AM - 6:00 PM,Nature
+Jag Mandir,Udaipur,20,5:00 AM - 9:00 PM,Religious
+Jagdish Temple,Udaipur,30,5:00 AM - 9:00 PM,Religious
+Saheliyon Ki Bari,Udaipur,100,9:00 AM - 6:00 PM,Attraction
+Fateh Sagar Lake,Udaipur,100,6:00 AM - 6:00 PM,Nature
+Monsoon Palace,Udaipur,70,9:00 AM - 5:30 PM,Heritage
+Bagore Ki Haveli,Udaipur,20,9:00 AM - 6:00 PM,Attraction
+Vintage and Classic Car Museum,Udaipur,140,10:00 AM - 5:30 PM,Museum
+Maharana Pratap Memorial,Udaipur,70,9:00 AM - 5:30 PM,Heritage
+Shilpgram Udaipur,Udaipur,70,9:00 AM - 6:00 PM,Attraction
+Doodh Talai,Udaipur,100,9:00 AM - 6:00 PM,Attraction
+Karni Mata Temple Udaipur,Udaipur,50,5:00 AM - 9:00 PM,Religious
+Gulab Bagh,Udaipur,110,9:00 AM - 6:00 PM,Attraction
+Sajjangarh Wildlife Sanctuary,Udaipur,390,7:00 AM - 5:30 PM,Wildlife
+Ahar Cenotaphs,Udaipur,50,9:00 AM - 6:00 PM,Attraction
+Bharatiya Lok Kala Mandal,Udaipur,30,9:00 AM - 6:00 PM,Attraction
+Moti Magri,Udaipur,110,9:00 AM - 6:00 PM,Attraction
+Nehru Garden,Udaipur,40,6:00 AM - 6:00 PM,Nature
+Badi Lake,Udaipur,80,6:00 AM - 6:00 PM,Nature
+Sukhadia Circle,Udaipur,140,9:00 AM - 6:00 PM,Attraction
+Ambrai Ghat,Udaipur,110,9:00 AM - 6:00 PM,Attraction
+Gangaur Ghat,Udaipur,130,9:00 AM - 6:00 PM,Attraction
+Dharohar Folk Dance,Udaipur,50,9:00 AM - 6:00 PM,Attraction
+Badi Lake View Point,Udaipur,90,6:00 AM - 6:00 PM,Nature
+Eklingji Temple,Udaipur,20,5:00 AM - 9:00 PM,Religious
+Sas-Bahu Temple Nagda,Udaipur,40,5:00 AM - 9:00 PM,Religious
+Haldighati,Udaipur,60,9:00 AM - 6:00 PM,Attraction
+Chetak Smarak,Udaipur,120,9:00 AM - 6:00 PM,Attraction
+Ranakpur Jain Temple,Udaipur,40,5:00 AM - 9:00 PM,Religious
+Kumbhalgarh Fort,Udaipur,60,9:00 AM - 5:30 PM,Heritage
+Kumbhalgarh Wildlife Sanctuary,Udaipur,110,7:00 AM - 5:30 PM,Wildlife
+Jaisamand Lake,Udaipur,40,6:00 AM - 6:00 PM,Nature
+Jaisamand Wildlife Sanctuary,Udaipur,110,7:00 AM - 5:30 PM,Wildlife
+Menar Bird Village,Udaipur,320,7:00 AM - 5:30 PM,Wildlife
+Nathdwara Temple,Udaipur,10,5:00 AM - 9:00 PM,Religious
+Rajsamand Lake,Udaipur,10,6:00 AM - 6:00 PM,Nature
+Gogunda,Udaipur,120,9:00 AM - 6:00 PM,Attraction
+Maharana Pratap Airport Viewpoint,Udaipur,20,9:00 AM - 6:00 PM,Attraction
+Dabok,Udaipur,140,9:00 AM - 6:00 PM,Attraction
+Taj Mahal,Agra,70,9:00 AM - 6:00 PM,Attraction
+Agra Fort,Agra,70,9:00 AM - 5:30 PM,Heritage
+Fatehpur Sikri,Agra,120,9:00 AM - 6:00 PM,Attraction
+Itmad-ud-Daulah's Tomb,Agra,50,9:00 AM - 5:30 PM,Heritage
+Mehtab Bagh,Agra,100,9:00 AM - 6:00 PM,Attraction
+Akbar's Tomb,Agra,120,9:00 AM - 5:30 PM,Heritage
+Mariam-uz-Zamani Tomb,Agra,100,9:00 AM - 5:30 PM,Heritage
+Jama Masjid Agra,Agra,110,9:00 AM - 6:00 PM,Attraction
+Mankameshwar Temple,Agra,0,5:00 AM - 9:00 PM,Religious
+Sikandra,Agra,60,9:00 AM - 6:00 PM,Attraction
+Agra Bear Rescue Facility,Agra,70,9:00 AM - 6:00 PM,Attraction
+Keetham Lake,Agra,20,6:00 AM - 6:00 PM,Nature
+Sur Sarovar Bird Sanctuary,Agra,210,7:00 AM - 5:30 PM,Wildlife
+Taj Nature Walk,Agra,60,9:00 AM - 6:00 PM,Attraction
+Chini Ka Rauza,Agra,30,9:00 AM - 6:00 PM,Attraction
+Ram Bagh,Agra,20,9:00 AM - 6:00 PM,Attraction
+Agra Fort Mosque,Agra,30,5:00 AM - 9:00 PM,Religious
+Anguri Bagh,Agra,150,9:00 AM - 6:00 PM,Attraction
+Musamman Burj,Agra,140,9:00 AM - 6:00 PM,Attraction
+Diwan-i-Am Agra Fort,Agra,100,9:00 AM - 5:30 PM,Heritage
+Diwan-i-Khas Agra Fort,Agra,150,9:00 AM - 5:30 PM,Heritage
+Sheesh Mahal Agra Fort,Agra,20,9:00 AM - 5:30 PM,Heritage
+Moti Masjid Agra,Agra,20,9:00 AM - 6:00 PM,Attraction
+Buland Darwaza,Agra,30,9:00 AM - 6:00 PM,Attraction
+Panch Mahal,Agra,50,9:00 AM - 6:00 PM,Attraction
+Salim Chishti Tomb,Agra,20,9:00 AM - 5:30 PM,Heritage
+Jodha Bai Palace,Agra,110,9:00 AM - 5:30 PM,Heritage
+Birbal's House Fatehpur Sikri,Agra,30,9:00 AM - 6:00 PM,Attraction
+Pachisi Court,Agra,30,9:00 AM - 6:00 PM,Attraction
+Tomb of Salabat Khan,Agra,190,9:00 AM - 5:30 PM,Heritage
+Guru Ka Taal,Agra,110,9:00 AM - 6:00 PM,Attraction
+Soami Bagh Temple,Agra,20,5:00 AM - 9:00 PM,Religious
+Wildlife SOS Elephant Conservation,Agra,250,7:00 AM - 5:30 PM,Wildlife
+Agra Marble Emporium,Agra,140,9:00 AM - 6:00 PM,Attraction
+Kinari Bazaar,Agra,0,10:00 AM - 10:00 PM,Shopping
+Sadar Bazaar Agra,Agra,0,10:00 AM - 10:00 PM,Shopping
+Taj Mahal East Gate,Agra,160,9:00 AM - 5:30 PM,Heritage
+Taj Mahal West Gate,Agra,30,9:00 AM - 5:30 PM,Heritage
+Khas Mahal Agra,Agra,80,9:00 AM - 6:00 PM,Attraction
+Octagonal Tower Agra Fort,Agra,120,9:00 AM - 5:30 PM,Heritage
+Kashi Vishwanath Temple,Varanasi,40,5:00 AM - 9:00 PM,Religious
+Dashashwamedh Ghat,Varanasi,50,9:00 AM - 6:00 PM,Attraction
+Assi Ghat,Varanasi,110,9:00 AM - 6:00 PM,Attraction
+Manikarnika Ghat,Varanasi,90,9:00 AM - 6:00 PM,Attraction
+Sarnath,Varanasi,80,9:00 AM - 6:00 PM,Attraction
+Sarnath Museum,Varanasi,60,10:00 AM - 5:30 PM,Museum
+Dhamek Stupa,Varanasi,130,9:00 AM - 5:30 PM,Heritage
+Chaukhandi Stupa,Varanasi,180,9:00 AM - 5:30 PM,Heritage
+Mulagandha Kuti Vihara,Varanasi,120,9:00 AM - 6:00 PM,Attraction
+Bharat Mata Temple,Varanasi,20,5:00 AM - 9:00 PM,Religious
+Sankat Mochan Hanuman Temple,Varanasi,30,5:00 AM - 9:00 PM,Religious
+Durga Temple Varanasi,Varanasi,20,5:00 AM - 9:00 PM,Religious
+Tulsi Manas Temple,Varanasi,20,5:00 AM - 9:00 PM,Religious
+Kal Bhairav Temple,Varanasi,0,5:00 AM - 9:00 PM,Religious
+Nepali Temple Varanasi,Varanasi,50,5:00 AM - 9:00 PM,Religious
+Ramnagar Fort,Varanasi,150,9:00 AM - 5:30 PM,Heritage
+Ramnagar Museum,Varanasi,30,10:00 AM - 5:30 PM,Museum
+Banaras Hindu University,Varanasi,60,9:00 AM - 6:00 PM,Attraction
+New Vishwanath Temple,Varanasi,50,5:00 AM - 9:00 PM,Religious
+Bharat Kala Bhavan Museum,Varanasi,130,10:00 AM - 5:30 PM,Museum
+Ganga Aarti Dashashwamedh,Varanasi,60,9:00 AM - 6:00 PM,Attraction
+Kedar Ghat,Varanasi,130,9:00 AM - 6:00 PM,Attraction
+Man Mandir Ghat,Varanasi,0,5:00 AM - 9:00 PM,Religious
+Scindia Ghat,Varanasi,60,9:00 AM - 6:00 PM,Attraction
+Ravidas Ghat,Varanasi,140,9:00 AM - 6:00 PM,Attraction
+Tulsi Ghat,Varanasi,80,9:00 AM - 6:00 PM,Attraction
+Chet Singh Ghat,Varanasi,70,9:00 AM - 6:00 PM,Attraction
+Rajendra Prasad Ghat,Varanasi,110,9:00 AM - 6:00 PM,Attraction
+Ahilyabai Ghat,Varanasi,20,9:00 AM - 6:00 PM,Attraction
+Lalita Ghat,Varanasi,100,9:00 AM - 6:00 PM,Attraction
+Darbhanga Ghat,Varanasi,70,9:00 AM - 6:00 PM,Attraction
+Munshi Ghat,Varanasi,50,9:00 AM - 6:00 PM,Attraction
+Kaal Bhairav Gali,Varanasi,100,9:00 AM - 6:00 PM,Attraction
+Godowlia Market,Varanasi,0,10:00 AM - 10:00 PM,Shopping
+Ramnagar Bridge,Varanasi,30,9:00 AM - 5:30 PM,Heritage
+Chunar Fort,Varanasi,50,9:00 AM - 5:30 PM,Heritage
+Chunar,Varanasi,40,9:00 AM - 6:00 PM,Attraction
+Vindhyachal Temple,Varanasi,40,5:00 AM - 9:00 PM,Religious
+Durga Kund,Varanasi,30,9:00 AM - 6:00 PM,Attraction
+Kriti Gallery,Varanasi,60,10:00 AM - 5:30 PM,Museum
+Bara Imambara,Lucknow,20,9:00 AM - 6:00 PM,Attraction
+Chota Imambara,Lucknow,40,9:00 AM - 6:00 PM,Attraction
+Rumi Darwaza,Lucknow,100,9:00 AM - 6:00 PM,Attraction
+British Residency Lucknow,Lucknow,70,9:00 AM - 6:00 PM,Attraction
+Hazratganj,Lucknow,110,9:00 AM - 6:00 PM,Attraction
+Ambedkar Memorial Park,Lucknow,110,9:00 AM - 5:30 PM,Heritage
+Janeshwar Mishra Park,Lucknow,0,6:00 AM - 6:00 PM,Nature
+Lucknow Zoo,Lucknow,320,7:00 AM - 5:30 PM,Wildlife
+State Museum Lucknow,Lucknow,70,10:00 AM - 5:30 PM,Museum
+La Martiniere College,Lucknow,70,9:00 AM - 6:00 PM,Attraction
+Dilkusha Kothi,Lucknow,80,9:00 AM - 6:00 PM,Attraction
+Chattar Manzil,Lucknow,80,9:00 AM - 6:00 PM,Attraction
+Husainabad Clock Tower,Lucknow,140,9:00 AM - 5:30 PM,Heritage
+Mankameshwar Mandir Lucknow,Lucknow,10,5:00 AM - 9:00 PM,Religious
+Aminabad,Lucknow,140,9:00 AM - 6:00 PM,Attraction
+Tunday Kababi Chowk,Lucknow,80,9:00 AM - 6:00 PM,Attraction
+Dr B R Ambedkar Park,Lucknow,100,6:00 AM - 6:00 PM,Nature
+Kanshi Ram Smarak Sthal,Lucknow,50,9:00 AM - 6:00 PM,Attraction
+Gomti Riverfront,Lucknow,20,6:00 AM - 6:00 PM,Nature
+Indira Gandhi Planetarium,Lucknow,80,10:00 AM - 5:30 PM,Museum
+Regional Science City Lucknow,Lucknow,200,10:00 AM - 5:30 PM,Museum
+Kukrail Forest Reserve,Lucknow,0,6:00 AM - 6:00 PM,Nature
+Janaki Mandir Lucknow,Lucknow,50,5:00 AM - 9:00 PM,Religious
+Chandrika Devi Temple,Lucknow,50,5:00 AM - 9:00 PM,Religious
+Deva Sharif,Lucknow,100,9:00 AM - 6:00 PM,Attraction
+Anandi Water Park,Lucknow,1270,10:00 AM - 7:00 PM,Amusement Park
+Disney Water Wonder Park,Lucknow,80,6:00 AM - 6:00 PM,Nature
+Dream World Amusement Park,Lucknow,60,6:00 AM - 6:00 PM,Nature
+Residency Museum,Lucknow,110,10:00 AM - 5:30 PM,Museum
+Moti Mahal Lucknow,Lucknow,140,9:00 AM - 6:00 PM,Attraction
+Sikandar Bagh,Lucknow,40,9:00 AM - 6:00 PM,Attraction
+Begum Hazrat Mahal Park,Lucknow,30,6:00 AM - 6:00 PM,Nature
+Kaiserbagh Palace,Lucknow,20,9:00 AM - 5:30 PM,Heritage
+Qaisar Bagh,Lucknow,20,9:00 AM - 6:00 PM,Attraction
+Nawab Wajid Ali Shah Zoological Garden,Lucknow,220,7:00 AM - 5:30 PM,Wildlife
+Shahi Baoli,Lucknow,190,9:00 AM - 5:30 PM,Heritage
+Husainabad Picture Gallery,Lucknow,180,10:00 AM - 5:30 PM,Museum
+Naubat Khana,Lucknow,80,9:00 AM - 6:00 PM,Attraction
+Satkhanda,Lucknow,60,9:00 AM - 6:00 PM,Attraction
+Constantia,Lucknow,70,9:00 AM - 6:00 PM,Attraction
+Sabarmati Ashram,Ahmedabad,10,5:00 AM - 9:00 PM,Religious
+Adalaj Stepwell,Ahmedabad,200,9:00 AM - 5:30 PM,Heritage
+Kankaria Lake,Ahmedabad,10,6:00 AM - 6:00 PM,Nature
+Sidi Saiyyed Mosque,Ahmedabad,10,5:00 AM - 9:00 PM,Religious
+Jama Masjid Ahmedabad,Ahmedabad,100,9:00 AM - 6:00 PM,Attraction
+Bhadra Fort,Ahmedabad,30,9:00 AM - 5:30 PM,Heritage
+Teen Darwaza,Ahmedabad,120,9:00 AM - 6:00 PM,Attraction
+Hutheesing Jain Temple,Ahmedabad,40,5:00 AM - 9:00 PM,Religious
+Akshardham Temple Gandhinagar,Ahmedabad,20,5:00 AM - 9:00 PM,Religious
+Science City Ahmedabad,Ahmedabad,130,10:00 AM - 5:30 PM,Museum
+Calico Museum of Textiles,Ahmedabad,190,10:00 AM - 5:30 PM,Museum
+Auto World Vintage Car Museum,Ahmedabad,130,10:00 AM - 5:30 PM,Museum
+Sardar Patel National Memorial,Ahmedabad,30,9:00 AM - 5:30 PM,Heritage
+Sabarmati Riverfront,Ahmedabad,100,6:00 AM - 6:00 PM,Nature
+Law Garden,Ahmedabad,0,6:00 AM - 6:00 PM,Nature
+Manek Chowk,Ahmedabad,120,9:00 AM - 6:00 PM,Attraction
+Dada Harir Stepwell,Ahmedabad,90,9:00 AM - 5:30 PM,Heritage
+Sarkhej Roza,Ahmedabad,90,9:00 AM - 6:00 PM,Attraction
+Jhulta Minar,Ahmedabad,20,9:00 AM - 6:00 PM,Attraction
+Vechaar Utensils Museum,Ahmedabad,100,10:00 AM - 5:30 PM,Museum
+Gujarat Science City,Ahmedabad,190,10:00 AM - 5:30 PM,Museum
+Indroda Nature Park,Ahmedabad,20,6:00 AM - 6:00 PM,Nature
+Nalsarovar Bird Sanctuary,Ahmedabad,300,7:00 AM - 5:30 PM,Wildlife
+Thol Lake,Ahmedabad,50,6:00 AM - 6:00 PM,Nature
+Modhera Sun Temple,Ahmedabad,10,5:00 AM - 9:00 PM,Religious
+Rani ki Vav,Ahmedabad,100,9:00 AM - 6:00 PM,Attraction
+Lothal Archaeological Site,Ahmedabad,150,9:00 AM - 6:00 PM,Attraction
+Dholavira,Ahmedabad,60,9:00 AM - 6:00 PM,Attraction
+Champaner-Pavagadh Archaeological Park,Ahmedabad,50,6:00 AM - 6:00 PM,Nature
+Pavagadh Temple,Ahmedabad,10,5:00 AM - 9:00 PM,Religious
+Hutheesing Jain Temple Museum,Ahmedabad,20,5:00 AM - 9:00 PM,Religious
+Kankaria Zoo,Ahmedabad,270,7:00 AM - 5:30 PM,Wildlife
+Kankaria Water Park,Ahmedabad,980,10:00 AM - 7:00 PM,Amusement Park
+Gujarat International Finance Tec-City,Ahmedabad,120,9:00 AM - 6:00 PM,Attraction
+Sidi Bashir Minar,Ahmedabad,90,9:00 AM - 6:00 PM,Attraction
+Teen Darwaza Market,Ahmedabad,0,10:00 AM - 10:00 PM,Shopping
+Bhadra Kali Temple,Ahmedabad,40,5:00 AM - 9:00 PM,Religious
+Shah Alam Roza,Ahmedabad,140,9:00 AM - 6:00 PM,Attraction
+Sarkhej Roza Complex,Ahmedabad,90,9:00 AM - 6:00 PM,Attraction
+Sabarmati Riverfront Flower Park,Ahmedabad,100,6:00 AM - 6:00 PM,Nature
+Fort Kochi,Kochi,200,9:00 AM - 5:30 PM,Heritage
+Mattancherry Palace,Kochi,110,9:00 AM - 5:30 PM,Heritage
+Jewish Synagogue Kochi,Kochi,50,9:00 AM - 6:00 PM,Attraction
+Chinese Fishing Nets,Kochi,40,9:00 AM - 6:00 PM,Attraction
+St Francis Church Kochi,Kochi,50,5:00 AM - 9:00 PM,Religious
+Santa Cruz Basilica Kochi,Kochi,30,5:00 AM - 9:00 PM,Religious
+Marine Drive Kochi,Kochi,40,9:00 AM - 6:00 PM,Attraction
+Kerala Folklore Museum,Kochi,180,10:00 AM - 5:30 PM,Museum
+Hill Palace Museum,Kochi,20,9:00 AM - 5:30 PM,Heritage
+Cherai Beach,Kochi,0,6:00 AM - 7:00 PM,Beach
+Bolgatty Palace,Kochi,130,9:00 AM - 5:30 PM,Heritage
+Willingdon Island,Kochi,80,6:00 AM - 6:00 PM,Nature
+Vasco da Gama Square,Kochi,130,9:00 AM - 6:00 PM,Attraction
+Kerala Kathakali Centre,Kochi,80,9:00 AM - 6:00 PM,Attraction
+Indo-Portuguese Museum,Kochi,40,10:00 AM - 5:30 PM,Museum
+Paradesi Synagogue,Kochi,120,9:00 AM - 6:00 PM,Attraction
+Jew Town Kochi,Kochi,40,9:00 AM - 6:00 PM,Attraction
+Mangalavanam Bird Sanctuary,Kochi,100,7:00 AM - 5:30 PM,Wildlife
+Wonderla Kochi,Kochi,780,10:00 AM - 7:00 PM,Amusement Park
+Lulu Mall Kochi,Kochi,0,10:00 AM - 10:00 PM,Shopping
+Kerala Museum,Kochi,140,10:00 AM - 5:30 PM,Museum
+Kumbalangi,Kochi,100,9:00 AM - 6:00 PM,Attraction
+Vypin Island,Kochi,40,6:00 AM - 6:00 PM,Nature
+Puthuvype Beach,Kochi,0,6:00 AM - 7:00 PM,Beach
+Fort Kochi Beach,Kochi,0,6:00 AM - 7:00 PM,Beach
+Bastion Bungalow,Kochi,40,9:00 AM - 6:00 PM,Attraction
+David Hall,Kochi,130,9:00 AM - 6:00 PM,Attraction
+Princess Street Kochi,Kochi,130,9:00 AM - 6:00 PM,Attraction
+Dutch Cemetery Kochi,Kochi,30,9:00 AM - 6:00 PM,Attraction
+Kodanad Elephant Training Centre,Kochi,20,9:00 AM - 6:00 PM,Attraction
+Athirappilly Falls,Kochi,80,6:00 AM - 6:00 PM,Nature
+Vazhachal Falls,Kochi,30,6:00 AM - 6:00 PM,Nature
+Thattekad Bird Sanctuary,Kochi,490,7:00 AM - 5:30 PM,Wildlife
+Cherai Muziris Heritage Project,Kochi,110,9:00 AM - 6:00 PM,Attraction
+Kerala History Museum,Kochi,120,10:00 AM - 5:30 PM,Museum
+Chendamangalam Synagogue,Kochi,90,6:00 AM - 6:00 PM,Nature
+Pallipuram Fort,Kochi,30,9:00 AM - 5:30 PM,Heritage
+Bolgatty Island,Kochi,60,6:00 AM - 6:00 PM,Nature
+Kochi Biennale Pavilion,Kochi,80,9:00 AM - 6:00 PM,Attraction
+Kochi-Muziris Biennale,Kochi,100,9:00 AM - 6:00 PM,Attraction
+Sri Padmanabhaswamy Temple,Thiruvananthapuram,40,5:00 AM - 9:00 PM,Religious
+Kovalam Beach,Thiruvananthapuram,0,6:00 AM - 7:00 PM,Beach
+Napier Museum,Thiruvananthapuram,80,10:00 AM - 5:30 PM,Museum
+Kuthira Malika Palace Museum,Thiruvananthapuram,180,9:00 AM - 5:30 PM,Heritage
+Kanakakkunnu Palace,Thiruvananthapuram,50,9:00 AM - 5:30 PM,Heritage
+Shangumukham Beach,Thiruvananthapuram,0,6:00 AM - 7:00 PM,Beach
+Neyyar Dam,Thiruvananthapuram,10,6:00 AM - 6:00 PM,Nature
+Neyyar Wildlife Sanctuary,Thiruvananthapuram,140,7:00 AM - 5:30 PM,Wildlife
+Poovar Island,Thiruvananthapuram,60,6:00 AM - 6:00 PM,Nature
+Veli Tourist Village,Thiruvananthapuram,70,9:00 AM - 6:00 PM,Attraction
+Magic Planet,Thiruvananthapuram,1100,10:00 AM - 7:00 PM,Amusement Park
+Thiruvananthapuram Zoo,Thiruvananthapuram,210,7:00 AM - 5:30 PM,Wildlife
+Sree Chitra Art Gallery,Thiruvananthapuram,120,10:00 AM - 5:30 PM,Museum
+Kerala Science and Technology Museum,Thiruvananthapuram,40,10:00 AM - 5:30 PM,Museum
+Akkulam Tourist Village,Thiruvananthapuram,130,9:00 AM - 6:00 PM,Attraction
+Vizhinjam Lighthouse,Thiruvananthapuram,110,9:00 AM - 6:00 PM,Attraction
+Vizhinjam Marine Aquarium,Thiruvananthapuram,120,9:00 AM - 6:00 PM,Attraction
+Lighthouse Beach Kovalam,Thiruvananthapuram,0,6:00 AM - 7:00 PM,Beach
+Hawa Beach Kovalam,Thiruvananthapuram,0,6:00 AM - 7:00 PM,Beach
+Samudra Beach,Thiruvananthapuram,0,6:00 AM - 7:00 PM,Beach
+Attukal Bhagavathy Temple,Thiruvananthapuram,10,5:00 AM - 9:00 PM,Religious
+Aruvikkara Dam,Thiruvananthapuram,20,6:00 AM - 6:00 PM,Nature
+Kowdiar Palace,Thiruvananthapuram,110,9:00 AM - 5:30 PM,Heritage
+Priyadarshini Planetarium,Thiruvananthapuram,120,10:00 AM - 5:30 PM,Museum
+Keralam - Museum of History and Heritage,Thiruvananthapuram,200,10:00 AM - 5:30 PM,Museum
+Palode Botanical Garden,Thiruvananthapuram,40,6:00 AM - 6:00 PM,Nature
+Peppara Wildlife Sanctuary,Thiruvananthapuram,270,7:00 AM - 5:30 PM,Wildlife
+Ponmudi,Thiruvananthapuram,40,9:00 AM - 6:00 PM,Attraction
+Agasthyarkoodam,Thiruvananthapuram,60,6:00 AM - 6:00 PM,Nature
+Aazhimala Shiva Temple,Thiruvananthapuram,10,5:00 AM - 9:00 PM,Religious
+Varkala Beach,Thiruvananthapuram,0,6:00 AM - 7:00 PM,Beach
+Janardana Swamy Temple,Thiruvananthapuram,50,5:00 AM - 9:00 PM,Religious
+Sivagiri Mutt,Thiruvananthapuram,120,9:00 AM - 6:00 PM,Attraction
+Varkala Cliff,Thiruvananthapuram,20,9:00 AM - 6:00 PM,Attraction
+Anchuthengu Fort,Thiruvananthapuram,170,9:00 AM - 5:30 PM,Heritage
+Edava Beach,Thiruvananthapuram,0,6:00 AM - 7:00 PM,Beach
+Kappil Beach,Thiruvananthapuram,0,6:00 AM - 7:00 PM,Beach
+Kappil Lake,Thiruvananthapuram,60,6:00 AM - 6:00 PM,Nature
+Mankayam Waterfalls,Thiruvananthapuram,50,6:00 AM - 6:00 PM,Nature
+Meenmutty Waterfalls Kerala,Thiruvananthapuram,80,6:00 AM - 6:00 PM,Nature
+Mysore Palace,Mysuru,70,9:00 AM - 5:30 PM,Heritage
+Chamundi Hill,Mysuru,80,6:00 AM - 6:00 PM,Nature
+Sri Chamundeshwari Temple,Mysuru,0,5:00 AM - 9:00 PM,Religious
+Brindavan Gardens,Mysuru,20,6:00 AM - 6:00 PM,Nature
+Mysuru Zoo,Mysuru,250,7:00 AM - 5:30 PM,Wildlife
+St Philomena's Church Mysuru,Mysuru,40,5:00 AM - 9:00 PM,Religious
+Jaganmohan Palace,Mysuru,60,9:00 AM - 5:30 PM,Heritage
+Karanji Lake,Mysuru,20,6:00 AM - 6:00 PM,Nature
+Railway Museum Mysuru,Mysuru,30,10:00 AM - 5:30 PM,Museum
+Lalitha Mahal Palace,Mysuru,50,9:00 AM - 5:30 PM,Heritage
+Kukkarahalli Lake,Mysuru,80,6:00 AM - 6:00 PM,Nature
+Regional Museum of Natural History Mysuru,Mysuru,30,10:00 AM - 5:30 PM,Museum
+Ranganathittu Bird Sanctuary,Mysuru,280,7:00 AM - 5:30 PM,Wildlife
+Krishna Raja Sagara Dam,Mysuru,10,6:00 AM - 6:00 PM,Nature
+GRS Fantasy Park,Mysuru,870,10:00 AM - 7:00 PM,Amusement Park
+Mysuru Sand Sculpture Museum,Mysuru,120,10:00 AM - 5:30 PM,Museum
+Folklore Museum Mysuru,Mysuru,90,10:00 AM - 5:30 PM,Museum
+Wax Museum Mysore,Mysuru,200,10:00 AM - 5:30 PM,Museum
+Melody World Wax Museum,Mysuru,70,10:00 AM - 5:30 PM,Museum
+Devaraja Market,Mysuru,0,10:00 AM - 10:00 PM,Shopping
+Cheluvamba Mansion,Mysuru,110,9:00 AM - 6:00 PM,Attraction
+Jayalakshmi Vilas Mansion,Mysuru,110,9:00 AM - 6:00 PM,Attraction
+Kishkindha Moolika Bonsai Garden,Mysuru,30,6:00 AM - 6:00 PM,Nature
+Avadoota Datta Peetham,Mysuru,40,9:00 AM - 6:00 PM,Attraction
+Nimishamba Temple,Mysuru,0,5:00 AM - 9:00 PM,Religious
+Nanjangud Srikanteshwara Temple,Mysuru,20,5:00 AM - 9:00 PM,Religious
+Somanathapura Temple,Mysuru,30,5:00 AM - 9:00 PM,Religious
+Talakad,Mysuru,30,9:00 AM - 6:00 PM,Attraction
+Kokkare Bellur Bird Sanctuary,Mysuru,90,7:00 AM - 5:30 PM,Wildlife
+Balmuri Falls,Mysuru,60,6:00 AM - 6:00 PM,Nature
+Edmuri Falls,Mysuru,40,6:00 AM - 6:00 PM,Nature
+Kunti Betta,Mysuru,110,9:00 AM - 6:00 PM,Attraction
+Srirangapatna,Mysuru,60,9:00 AM - 6:00 PM,Attraction
+Daria Daulat Bagh,Mysuru,120,9:00 AM - 6:00 PM,Attraction
+Gumbaz Srirangapatna,Mysuru,30,9:00 AM - 6:00 PM,Attraction
+Tipu Sultan's Summer Palace Srirangapatna,Mysuru,130,9:00 AM - 5:30 PM,Heritage
+Ranganatha Temple Srirangapatna,Mysuru,30,5:00 AM - 9:00 PM,Religious
+Scottish Church Mysuru,Mysuru,30,5:00 AM - 9:00 PM,Religious
+Mysore Palace Museum,Mysuru,50,9:00 AM - 5:30 PM,Heritage
+Mysuru Rail Museum,Mysuru,200,10:00 AM - 5:30 PM,Museum
+Basilica of Bom Jesus,Goa,40,5:00 AM - 9:00 PM,Religious
+Se Cathedral,Goa,10,5:00 AM - 9:00 PM,Religious
+Fort Aguada,Goa,130,9:00 AM - 5:30 PM,Heritage
+Calangute Beach,Goa,0,6:00 AM - 7:00 PM,Beach
+Baga Beach,Goa,0,6:00 AM - 7:00 PM,Beach
+Anjuna Beach,Goa,0,6:00 AM - 7:00 PM,Beach
+Palolem Beach,Goa,0,6:00 AM - 7:00 PM,Beach
+Colva Beach,Goa,0,6:00 AM - 7:00 PM,Beach
+Candolim Beach,Goa,0,6:00 AM - 7:00 PM,Beach
+Vagator Beach,Goa,0,6:00 AM - 7:00 PM,Beach
+Dudhsagar Falls,Goa,100,6:00 AM - 6:00 PM,Nature
+Chapora Fort,Goa,160,9:00 AM - 5:30 PM,Heritage
+Reis Magos Fort,Goa,200,9:00 AM - 5:30 PM,Heritage
+Basilica of St Cajetan,Goa,20,5:00 AM - 9:00 PM,Religious
+Church of St Francis of Assisi Goa,Goa,0,5:00 AM - 9:00 PM,Religious
+Miramar Beach,Goa,0,6:00 AM - 7:00 PM,Beach
+Dona Paula,Goa,30,9:00 AM - 6:00 PM,Attraction
+Salim Ali Bird Sanctuary,Goa,100,7:00 AM - 5:30 PM,Wildlife
+Mollem National Park,Goa,360,7:00 AM - 5:30 PM,Wildlife
+Cotigao Wildlife Sanctuary,Goa,240,7:00 AM - 5:30 PM,Wildlife
+Bondla Wildlife Sanctuary,Goa,210,7:00 AM - 5:30 PM,Wildlife
+Spice Plantation Ponda,Goa,140,9:00 AM - 6:00 PM,Attraction
+Shantadurga Temple,Goa,50,5:00 AM - 9:00 PM,Religious
+Mangueshi Temple,Goa,10,5:00 AM - 9:00 PM,Religious
+Mahalasa Temple,Goa,10,5:00 AM - 9:00 PM,Religious
+Our Lady of Immaculate Conception Church,Goa,20,5:00 AM - 9:00 PM,Religious
+Fontainhas,Goa,80,9:00 AM - 6:00 PM,Attraction
+Panaji Church Square,Goa,40,5:00 AM - 9:00 PM,Religious
+Goa State Museum,Goa,200,10:00 AM - 5:30 PM,Museum
+Goa Science Centre,Goa,130,10:00 AM - 5:30 PM,Museum
+Naval Aviation Museum,Goa,130,10:00 AM - 5:30 PM,Museum
+Museum of Christian Art,Goa,180,10:00 AM - 5:30 PM,Museum
+Saturday Night Market Arpora,Goa,0,10:00 AM - 10:00 PM,Shopping
+Mapusa Market,Goa,0,10:00 AM - 10:00 PM,Shopping
+Panjim Market,Goa,0,10:00 AM - 10:00 PM,Shopping
+Casino Pride,Goa,80,9:00 AM - 6:00 PM,Attraction
+Splashdown Waterpark,Goa,50,6:00 AM - 6:00 PM,Nature
+Goa Kart Racing,Goa,40,9:00 AM - 6:00 PM,Attraction
+Butterfly Beach,Goa,0,6:00 AM - 7:00 PM,Beach
+Agonda Beach,Goa,0,6:00 AM - 7:00 PM,Beach
+Mehrangarh Fort,Jodhpur,80,9:00 AM - 5:30 PM,Heritage
+Umaid Bhawan Palace,Jodhpur,160,9:00 AM - 5:30 PM,Heritage
+Jaswant Thada,Jodhpur,50,9:00 AM - 6:00 PM,Attraction
+Mandore Gardens,Jodhpur,50,6:00 AM - 6:00 PM,Nature
+Kaylana Lake,Jodhpur,50,6:00 AM - 6:00 PM,Nature
+Clock Tower Jodhpur,Jodhpur,150,9:00 AM - 5:30 PM,Heritage
+Sardar Market Jodhpur,Jodhpur,0,10:00 AM - 10:00 PM,Shopping
+Rao Jodha Desert Rock Park,Jodhpur,90,6:00 AM - 6:00 PM,Nature
+Machia Biological Park,Jodhpur,60,6:00 AM - 6:00 PM,Nature
+Toorji Ka Jhalra,Jodhpur,50,9:00 AM - 6:00 PM,Attraction
+Ghanta Ghar,Jodhpur,40,9:00 AM - 6:00 PM,Attraction
+Chamunda Mata Temple,Jodhpur,30,5:00 AM - 9:00 PM,Religious
+Balsamand Lake,Jodhpur,90,6:00 AM - 6:00 PM,Nature
+Balsamand Lake Palace,Jodhpur,60,9:00 AM - 5:30 PM,Heritage
+Mandore Fort,Jodhpur,150,9:00 AM - 5:30 PM,Heritage
+Mahila Bagh Ka Jhalra,Jodhpur,60,9:00 AM - 6:00 PM,Attraction
+Masuria Hill Garden,Jodhpur,50,6:00 AM - 6:00 PM,Nature
+Rai Ka Bagh Palace,Jodhpur,50,9:00 AM - 5:30 PM,Heritage
+Achal Nath Shivalaya,Jodhpur,70,9:00 AM - 6:00 PM,Attraction
+Udai Mandir,Jodhpur,20,5:00 AM - 9:00 PM,Religious
+Mahamandir Temple,Jodhpur,30,5:00 AM - 9:00 PM,Religious
+Sardar Government Museum,Jodhpur,110,10:00 AM - 5:30 PM,Museum
+Mehrangarh Museum,Jodhpur,70,10:00 AM - 5:30 PM,Museum
+Kailana Sunset Point,Jodhpur,100,9:00 AM - 6:00 PM,Attraction
+Jodhpur Stepwell Square,Jodhpur,100,9:00 AM - 5:30 PM,Heritage
+Pachetia Hill,Jodhpur,30,6:00 AM - 6:00 PM,Nature
+Kaylana Garden,Jodhpur,50,6:00 AM - 6:00 PM,Nature
+Rao Jodha Park Visitor Centre,Jodhpur,20,6:00 AM - 6:00 PM,Nature
+Jodhpur Polo Heritage Ground,Jodhpur,100,9:00 AM - 6:00 PM,Attraction
+Jaswant Sagar Dam,Jodhpur,10,6:00 AM - 6:00 PM,Nature
+Bishnoi Village,Jodhpur,60,9:00 AM - 6:00 PM,Attraction
+Guda Bishnoi Lake,Jodhpur,40,6:00 AM - 6:00 PM,Nature
+Salawas Village,Jodhpur,110,9:00 AM - 6:00 PM,Attraction
+Osian Temples,Jodhpur,30,5:00 AM - 9:00 PM,Religious
+Sachiya Mata Temple Osian,Jodhpur,50,5:00 AM - 9:00 PM,Religious
+Mahavira Temple Osian,Jodhpur,30,5:00 AM - 9:00 PM,Religious
+Kuchaman Fort,Jodhpur,140,9:00 AM - 5:30 PM,Heritage
+Rohet Garh,Jodhpur,20,9:00 AM - 6:00 PM,Attraction
+Dhawa Wildlife Sanctuary,Jodhpur,400,7:00 AM - 5:30 PM,Wildlife
+Sardar Samand Lake,Jodhpur,50,6:00 AM - 6:00 PM,Nature
+Golden Temple,Amritsar,50,5:00 AM - 9:00 PM,Religious
+Jallianwala Bagh,Amritsar,80,9:00 AM - 6:00 PM,Attraction
+Wagah Border,Amritsar,70,9:00 AM - 6:00 PM,Attraction
+Partition Museum,Amritsar,60,10:00 AM - 5:30 PM,Museum
+Durgiana Temple,Amritsar,50,5:00 AM - 9:00 PM,Religious
+Gobindgarh Fort,Amritsar,170,9:00 AM - 5:30 PM,Heritage
+Maharaja Ranjit Singh Museum,Amritsar,200,10:00 AM - 5:30 PM,Museum
+Maharaja Ranjit Singh Panorama,Amritsar,100,9:00 AM - 6:00 PM,Attraction
+Ram Tirath Temple,Amritsar,10,5:00 AM - 9:00 PM,Religious
+Khair-ud-Din Masjid,Amritsar,80,9:00 AM - 6:00 PM,Attraction
+Akal Takht,Amritsar,70,9:00 AM - 6:00 PM,Attraction
+Central Sikh Museum,Amritsar,130,10:00 AM - 5:30 PM,Museum
+Baba Atal Sahib,Amritsar,20,9:00 AM - 6:00 PM,Attraction
+Gurudwara Ramsar Sahib,Amritsar,30,5:00 AM - 9:00 PM,Religious
+Gurudwara Bibeksar Sahib,Amritsar,50,5:00 AM - 9:00 PM,Religious
+Gurudwara Mata Kaulan,Amritsar,10,5:00 AM - 9:00 PM,Religious
+Gurudwara Shaheed Ganj Sahib,Amritsar,0,5:00 AM - 9:00 PM,Religious
+Sadda Pind,Amritsar,60,9:00 AM - 6:00 PM,Attraction
+Harike Wetland,Amritsar,100,9:00 AM - 6:00 PM,Attraction
+Pul Kanjari,Amritsar,130,9:00 AM - 6:00 PM,Attraction
+Maharaja Ranjit Singh Statue,Amritsar,60,9:00 AM - 6:00 PM,Attraction
+Company Bagh Amritsar,Amritsar,40,9:00 AM - 6:00 PM,Attraction
+Hall Bazaar,Amritsar,0,10:00 AM - 10:00 PM,Shopping
+Heritage Street Amritsar,Amritsar,70,9:00 AM - 6:00 PM,Attraction
+Golden Temple Heritage Museum,Amritsar,40,5:00 AM - 9:00 PM,Religious
+Jallianwala Bagh Martyrs' Well,Amritsar,120,9:00 AM - 6:00 PM,Attraction
+Summer Palace Maharaja Ranjit Singh,Amritsar,150,9:00 AM - 5:30 PM,Heritage
+Tarn Taran Sahib,Amritsar,150,9:00 AM - 6:00 PM,Attraction
+Goindwal Sahib,Amritsar,140,9:00 AM - 6:00 PM,Attraction
+Dera Baba Nanak,Amritsar,140,9:00 AM - 6:00 PM,Attraction
+Gurudwara Kartarpur Sahib Viewpoint,Amritsar,30,5:00 AM - 9:00 PM,Religious
+Akal Takht Complex,Amritsar,150,9:00 AM - 6:00 PM,Attraction
+Saragarhi Memorial,Amritsar,170,9:00 AM - 5:30 PM,Heritage
+Khalsa College Amritsar,Amritsar,70,9:00 AM - 6:00 PM,Attraction
+Khalsa College Heritage Building,Amritsar,20,9:00 AM - 5:30 PM,Heritage
+Gurudwara Manji Sahib,Amritsar,0,5:00 AM - 9:00 PM,Religious
+Gurudwara Baba Deep Singh,Amritsar,10,5:00 AM - 9:00 PM,Religious
+Gurudwara Chhevin Patshahi,Amritsar,50,5:00 AM - 9:00 PM,Religious
+Gurudwara Shaheed Baba Deep Singh,Amritsar,0,5:00 AM - 9:00 PM,Religious
+Gurudwara Ber Sahib,Amritsar,50,5:00 AM - 9:00 PM,Religious
+The Ridge Shimla,Shimla,150,9:00 AM - 6:00 PM,Attraction
+Mall Road Shimla,Shimla,0,10:00 AM - 10:00 PM,Shopping
+Jakhu Temple,Shimla,20,5:00 AM - 9:00 PM,Religious
+Christ Church Shimla,Shimla,20,5:00 AM - 9:00 PM,Religious
+Viceregal Lodge,Shimla,20,9:00 AM - 6:00 PM,Attraction
+Indian Institute of Advanced Study,Shimla,140,9:00 AM - 6:00 PM,Attraction
+Kufri,Shimla,50,9:00 AM - 6:00 PM,Attraction
+Kufri Fun World,Shimla,1410,10:00 AM - 7:00 PM,Amusement Park
+Shimla State Museum,Shimla,170,10:00 AM - 5:30 PM,Museum
+Himachal State Museum,Shimla,190,10:00 AM - 5:30 PM,Museum
+Himalayan Bird Park,Shimla,220,7:00 AM - 5:30 PM,Wildlife
+Annandale,Shimla,110,9:00 AM - 6:00 PM,Attraction
+Summer Hill,Shimla,100,6:00 AM - 6:00 PM,Nature
+Chadwick Falls,Shimla,50,6:00 AM - 6:00 PM,Nature
+Sankat Mochan Temple Shimla,Shimla,0,5:00 AM - 9:00 PM,Religious
+Tara Devi Temple,Shimla,40,5:00 AM - 9:00 PM,Religious
+Jakhu Hill,Shimla,30,6:00 AM - 6:00 PM,Nature
+Glen Forest,Shimla,80,6:00 AM - 6:00 PM,Nature
+Himalayan Nature Park,Shimla,0,6:00 AM - 6:00 PM,Nature
+Mashobra,Shimla,30,9:00 AM - 6:00 PM,Attraction
+Naldehra,Shimla,40,9:00 AM - 6:00 PM,Attraction
+Naldehra Golf Course,Shimla,70,9:00 AM - 6:00 PM,Attraction
+Kali Bari Temple Shimla,Shimla,10,5:00 AM - 9:00 PM,Religious
+Gaiety Heritage Cultural Complex,Shimla,90,9:00 AM - 6:00 PM,Attraction
+Scandal Point,Shimla,50,9:00 AM - 6:00 PM,Attraction
+Shimla Heritage Museum,Shimla,80,10:00 AM - 5:30 PM,Museum
+Army Museum Annandale,Shimla,120,10:00 AM - 5:30 PM,Museum
+Kufri Zoo,Shimla,100,7:00 AM - 5:30 PM,Wildlife
+Green Valley Shimla,Shimla,90,6:00 AM - 6:00 PM,Nature
+Fagu,Shimla,80,9:00 AM - 6:00 PM,Attraction
+Chail Palace,Shimla,180,9:00 AM - 5:30 PM,Heritage
+Chail Wildlife Sanctuary,Shimla,480,7:00 AM - 5:30 PM,Wildlife
+Himalayan Nature Park Kufri,Shimla,90,6:00 AM - 6:00 PM,Nature
+Kandaghat,Shimla,100,9:00 AM - 6:00 PM,Attraction
+Shoghi,Shimla,40,9:00 AM - 6:00 PM,Attraction
+Tattapani,Shimla,30,9:00 AM - 6:00 PM,Attraction
+Narkanda,Shimla,20,9:00 AM - 6:00 PM,Attraction
+Hatu Temple,Shimla,20,5:00 AM - 9:00 PM,Religious
+Hatu Peak,Shimla,80,9:00 AM - 6:00 PM,Attraction
+Kharapathar,Shimla,20,9:00 AM - 6:00 PM,Attraction
+Solang Valley,Manali,20,6:00 AM - 6:00 PM,Nature
+Rohtang Pass,Manali,100,9:00 AM - 6:00 PM,Attraction
+Hadimba Temple,Manali,50,5:00 AM - 9:00 PM,Religious
+Manali Nature Park,Manali,80,6:00 AM - 6:00 PM,Nature
+Vashisht Temple,Manali,10,5:00 AM - 9:00 PM,Religious
+Vashisht Hot Water Springs,Manali,90,9:00 AM - 6:00 PM,Attraction
+Manu Temple,Manali,50,5:00 AM - 9:00 PM,Religious
+Old Manali,Manali,120,9:00 AM - 6:00 PM,Attraction
+Mall Road Manali,Manali,0,10:00 AM - 10:00 PM,Shopping
+Museum of Himachal Culture and Folk Art,Manali,130,10:00 AM - 5:30 PM,Museum
+Nehru Kund,Manali,70,9:00 AM - 6:00 PM,Attraction
+Jogini Waterfall,Manali,50,6:00 AM - 6:00 PM,Nature
+Beas River,Manali,50,6:00 AM - 6:00 PM,Nature
+Van Vihar National Park,Manali,430,7:00 AM - 5:30 PM,Wildlife
+Arjun Gufa,Manali,90,9:00 AM - 6:00 PM,Attraction
+Naggar Castle,Manali,60,9:00 AM - 6:00 PM,Attraction
+Nicholas Roerich Art Gallery,Manali,180,10:00 AM - 5:30 PM,Museum
+Naggar Village,Manali,70,9:00 AM - 6:00 PM,Attraction
+Rahala Waterfalls,Manali,40,6:00 AM - 6:00 PM,Nature
+Marhi,Manali,20,9:00 AM - 6:00 PM,Attraction
+Kothi Village,Manali,120,9:00 AM - 6:00 PM,Attraction
+Gulaba,Manali,90,9:00 AM - 6:00 PM,Attraction
+Sissu,Manali,40,9:00 AM - 6:00 PM,Attraction
+Atal Tunnel,Manali,20,9:00 AM - 6:00 PM,Attraction
+Hampta Pass,Manali,90,9:00 AM - 6:00 PM,Attraction
+Beas Kund,Manali,140,9:00 AM - 6:00 PM,Attraction
+Bhrigu Lake,Manali,50,6:00 AM - 6:00 PM,Nature
+Great Himalayan National Park,Manali,210,7:00 AM - 5:30 PM,Wildlife
+Kasol,Manali,150,9:00 AM - 6:00 PM,Attraction
+Manikaran Sahib,Manali,140,9:00 AM - 6:00 PM,Attraction
+Tosh Village,Manali,90,9:00 AM - 6:00 PM,Attraction
+Malana Village,Manali,50,9:00 AM - 6:00 PM,Attraction
+Parvati Valley,Manali,50,6:00 AM - 6:00 PM,Nature
+Bijli Mahadev Temple,Manali,20,5:00 AM - 9:00 PM,Religious
+Naggar Temple,Manali,40,5:00 AM - 9:00 PM,Religious
+Tripura Sundari Temple Naggar,Manali,50,5:00 AM - 9:00 PM,Religious
+Ragunath Temple Kullu,Manali,30,5:00 AM - 9:00 PM,Religious
+Pandoh Dam,Manali,40,6:00 AM - 6:00 PM,Nature
+Kullu Dussehra Ground,Manali,50,9:00 AM - 6:00 PM,Attraction
+Solang Ropeway,Manali,110,9:00 AM - 6:00 PM,Attraction
+Alappuzha Backwaters,Kottayam,0,6:00 AM - 6:00 PM,Nature
+Kumarakom Bird Sanctuary,Kottayam,310,7:00 AM - 5:30 PM,Wildlife
+Vembanad Lake,Kottayam,10,6:00 AM - 6:00 PM,Nature
+Marari Beach,Kottayam,0,6:00 AM - 7:00 PM,Beach
+Pathiramanal Island,Kottayam,100,6:00 AM - 6:00 PM,Nature
+Krishnapuram Palace,Kottayam,180,9:00 AM - 5:30 PM,Heritage
+Alappuzha Beach,Kottayam,0,6:00 AM - 7:00 PM,Beach
+Ambalappuzha Sree Krishna Temple,Kottayam,50,5:00 AM - 9:00 PM,Religious
+Kuttanad,Kottayam,100,9:00 AM - 6:00 PM,Attraction
+Mannarasala Sree Nagaraja Temple,Kottayam,20,5:00 AM - 9:00 PM,Religious
+Karumadi Kuttan,Kottayam,90,9:00 AM - 6:00 PM,Attraction
+Revi Karunakaran Museum,Kottayam,50,10:00 AM - 5:30 PM,Museum
+Alappuzha Lighthouse,Kottayam,150,9:00 AM - 6:00 PM,Attraction
+Punnamada Lake,Kottayam,80,6:00 AM - 6:00 PM,Nature
+Nehru Trophy Boat Race Course,Kottayam,100,9:00 AM - 6:00 PM,Attraction
+Kumarakom Beach,Kottayam,0,6:00 AM - 7:00 PM,Beach
+Kumarakom Craft Museum,Kottayam,130,10:00 AM - 5:30 PM,Museum
+Bay Island Driftwood Museum,Kottayam,180,10:00 AM - 5:30 PM,Museum
+Aruvikkuzhi Waterfalls,Kottayam,50,6:00 AM - 6:00 PM,Nature
+Thanneermukkom Bund,Kottayam,120,9:00 AM - 6:00 PM,Attraction
+Vaikom Mahadeva Temple,Kottayam,20,5:00 AM - 9:00 PM,Religious
+Thalayolaparambu,Kottayam,70,9:00 AM - 6:00 PM,Attraction
+Pathiramanal Bird Sanctuary,Kottayam,160,7:00 AM - 5:30 PM,Wildlife
+Kottathavalam,Kottayam,30,9:00 AM - 6:00 PM,Attraction
+Vagamon,Kottayam,100,9:00 AM - 6:00 PM,Attraction
+Illikkal Kallu,Kottayam,150,9:00 AM - 6:00 PM,Attraction
+Pala,Kottayam,140,9:00 AM - 6:00 PM,Attraction
+Kottayam Thirunakkara Mahadeva Temple,Kottayam,10,5:00 AM - 9:00 PM,Religious
+Kumarakom Backwaters,Kottayam,40,6:00 AM - 6:00 PM,Nature
+Kottayam Museum,Kottayam,190,10:00 AM - 5:30 PM,Museum
+Ettumanoor Mahadeva Temple,Kottayam,40,5:00 AM - 9:00 PM,Religious
+Kumarakom Temple,Kottayam,30,5:00 AM - 9:00 PM,Religious
+Thazhathangadi Juma Masjid,Kottayam,120,9:00 AM - 6:00 PM,Attraction
+Kottathavalam Viewpoint,Kottayam,30,9:00 AM - 6:00 PM,Attraction
+Kumarakom Village,Kottayam,110,9:00 AM - 6:00 PM,Attraction
+Poonjar Palace,Kottayam,80,9:00 AM - 5:30 PM,Heritage
+Poonjar Palace Museum,Kottayam,20,9:00 AM - 5:30 PM,Heritage
+Ilaveezhapoonchira,Kottayam,90,9:00 AM - 6:00 PM,Attraction
+Elaveezhapoonchira Hills,Kottayam,30,6:00 AM - 6:00 PM,Nature
+Kottayam Kodimatha,Kottayam,10,5:00 AM - 9:00 PM,Religious
+Meenakshi Amman Temple,Madurai,30,5:00 AM - 9:00 PM,Religious
+Thirumalai Nayakkar Palace,Madurai,180,9:00 AM - 5:30 PM,Heritage
+Gandhi Memorial Museum,Madurai,180,9:00 AM - 5:30 PM,Heritage
+Alagar Koyil,Madurai,40,9:00 AM - 6:00 PM,Attraction
+Pazhamudir Solai,Madurai,100,9:00 AM - 6:00 PM,Attraction
+Thirupparankundram Murugan Temple,Madurai,10,5:00 AM - 9:00 PM,Religious
+Koodal Azhagar Temple,Madurai,20,5:00 AM - 9:00 PM,Religious
+St Mary's Cathedral Madurai,Madurai,50,5:00 AM - 9:00 PM,Religious
+Vandiyur Mariamman Teppakulam,Madurai,90,9:00 AM - 6:00 PM,Attraction
+Athisayam Theme Park,Madurai,570,10:00 AM - 7:00 PM,Amusement Park
+Samanar Hills,Madurai,80,6:00 AM - 6:00 PM,Nature
+Keezhadi Archaeological Site,Madurai,120,9:00 AM - 6:00 PM,Attraction
+Goripalayam Dargah,Madurai,20,5:00 AM - 9:00 PM,Religious
+Kazimar Big Mosque,Madurai,20,5:00 AM - 9:00 PM,Religious
+Puthu Mandapam,Madurai,120,9:00 AM - 6:00 PM,Attraction
+Mariamman Teppakulam,Madurai,80,9:00 AM - 6:00 PM,Attraction
+Vandiyur Lake,Madurai,80,6:00 AM - 6:00 PM,Nature
+Rajaji Park Madurai,Madurai,90,6:00 AM - 6:00 PM,Nature
+Madurai Government Museum,Madurai,200,10:00 AM - 5:30 PM,Museum
+Alagar Hills,Madurai,30,6:00 AM - 6:00 PM,Nature
+Pazhamudircholai,Madurai,40,9:00 AM - 6:00 PM,Attraction
+Tirupparankundram Hill,Madurai,90,6:00 AM - 6:00 PM,Nature
+Arittapatti Biodiversity Heritage Site,Madurai,100,9:00 AM - 6:00 PM,Attraction
+Thirumohoor Kalamegaperumal Temple,Madurai,50,5:00 AM - 9:00 PM,Religious
+Thiruppuvanam Pushpavaneswarar Temple,Madurai,10,5:00 AM - 9:00 PM,Religious
+Kochadai Ayyanar Temple,Madurai,50,5:00 AM - 9:00 PM,Religious
+Sivaganga Palace,Madurai,60,9:00 AM - 5:30 PM,Heritage
+Kalaiyar Kovil,Madurai,40,9:00 AM - 6:00 PM,Attraction
+Pillayarpatti Karpaga Vinayagar Temple,Madurai,50,5:00 AM - 9:00 PM,Religious
+Chettinad Palace,Madurai,200,9:00 AM - 5:30 PM,Heritage
+Karaikudi Heritage Mansion,Madurai,20,9:00 AM - 6:00 PM,Attraction
+Athangudi Palace,Madurai,30,9:00 AM - 5:30 PM,Heritage
+Athangudi Tiles,Madurai,60,9:00 AM - 6:00 PM,Attraction
+Kundrakudi Murugan Temple,Madurai,20,5:00 AM - 9:00 PM,Religious
+Vettangudi Bird Sanctuary,Madurai,160,7:00 AM - 5:30 PM,Wildlife
+Vaigai Dam,Madurai,20,6:00 AM - 6:00 PM,Nature
+Suruli Falls,Madurai,40,6:00 AM - 6:00 PM,Nature
+Megamalai,Madurai,100,9:00 AM - 6:00 PM,Attraction
+Kumbakkarai Falls,Madurai,50,6:00 AM - 6:00 PM,Nature
+Sivaganga Gandhi Park,Madurai,20,6:00 AM - 6:00 PM,Nature
+Amaravati Stupa,Amaravati,160,9:00 AM - 5:30 PM,Heritage
+Amaralingeswara Temple,Amaravati,10,5:00 AM - 9:00 PM,Religious
+Undavalli Caves,Amaravati,70,9:00 AM - 5:30 PM,Heritage
+Kanaka Durga Temple,Amaravati,50,5:00 AM - 9:00 PM,Religious
+Prakasam Barrage,Amaravati,20,9:00 AM - 6:00 PM,Attraction
+Bhavani Island,Amaravati,20,6:00 AM - 6:00 PM,Nature
+Victoria Jubilee Museum,Amaravati,70,10:00 AM - 5:30 PM,Museum
+Gandhi Hill,Amaravati,60,6:00 AM - 6:00 PM,Nature
+Suryalanka Beach,Amaravati,0,6:00 AM - 7:00 PM,Beach
+Kondaveedu Fort,Amaravati,170,9:00 AM - 5:30 PM,Heritage
+Mangalagiri Panakala Narasimha Temple,Amaravati,40,5:00 AM - 9:00 PM,Religious
+Uppalapadu Bird Sanctuary,Amaravati,60,7:00 AM - 5:30 PM,Wildlife
+Kondapalli Fort,Amaravati,110,9:00 AM - 5:30 PM,Heritage
+Kondapalli Toys Village,Amaravati,50,9:00 AM - 6:00 PM,Attraction
+Krishna Riverfront,Amaravati,80,6:00 AM - 6:00 PM,Nature
+Mogalarajapuram Caves,Amaravati,130,9:00 AM - 5:30 PM,Heritage
+Hinkar Thirtha Jain Temple,Amaravati,40,5:00 AM - 9:00 PM,Religious
+Gandhi Park Vijayawada,Amaravati,10,6:00 AM - 6:00 PM,Nature
+Rajiv Gandhi Park Vijayawada,Amaravati,70,6:00 AM - 6:00 PM,Nature
+Vijayawada Museum,Amaravati,160,10:00 AM - 5:30 PM,Museum
+Robber's Cave,Dehradun,40,9:00 AM - 6:00 PM,Attraction
+Sahastradhara,Dehradun,70,9:00 AM - 6:00 PM,Attraction
+Forest Research Institute,Dehradun,20,6:00 AM - 6:00 PM,Nature
+Tapkeshwar Temple,Dehradun,50,5:00 AM - 9:00 PM,Religious
+Mindrolling Monastery,Dehradun,100,9:00 AM - 6:00 PM,Attraction
+Dehradun Zoo,Dehradun,70,7:00 AM - 5:30 PM,Wildlife
+Malsi Deer Park,Dehradun,70,6:00 AM - 6:00 PM,Nature
+Rajaji National Park,Dehradun,50,7:00 AM - 5:30 PM,Wildlife
+Lachhiwala Nature Park,Dehradun,0,6:00 AM - 6:00 PM,Nature
+Tiger Falls,Dehradun,10,6:00 AM - 6:00 PM,Nature
+Shikhar Fall,Dehradun,70,9:00 AM - 6:00 PM,Attraction
+Paltan Bazaar,Dehradun,0,10:00 AM - 10:00 PM,Shopping
+Clock Tower Dehradun,Dehradun,200,9:00 AM - 5:30 PM,Heritage
+Tapovan Temple,Dehradun,50,5:00 AM - 9:00 PM,Religious
+Regional Science Centre Dehradun,Dehradun,110,10:00 AM - 5:30 PM,Museum
+Wadia Institute Museum,Dehradun,130,10:00 AM - 5:30 PM,Museum
+Zonal Museum Dehradun,Dehradun,30,10:00 AM - 5:30 PM,Museum
+Chetwode Hall,Dehradun,40,9:00 AM - 6:00 PM,Attraction
+Malsi Reserve Forest,Dehradun,80,6:00 AM - 6:00 PM,Nature
+Dakpathar,Dehradun,50,9:00 AM - 6:00 PM,Attraction
+Jagannath Temple Puri,Bhubaneswar,0,5:00 AM - 9:00 PM,Religious
+Lingaraj Temple,Bhubaneswar,30,5:00 AM - 9:00 PM,Religious
+Udayagiri Caves,Bhubaneswar,150,9:00 AM - 5:30 PM,Heritage
+Khandagiri Caves,Bhubaneswar,80,9:00 AM - 5:30 PM,Heritage
+Konark Sun Temple,Bhubaneswar,10,5:00 AM - 9:00 PM,Religious
+Rajarani Temple,Bhubaneswar,10,5:00 AM - 9:00 PM,Religious
+Mukteshwar Temple,Bhubaneswar,10,5:00 AM - 9:00 PM,Religious
+Parashurameshvara Temple,Bhubaneswar,50,5:00 AM - 9:00 PM,Religious
+Dhauli Shanti Stupa,Bhubaneswar,170,9:00 AM - 5:30 PM,Heritage
+Nandankanan Zoological Park,Bhubaneswar,180,7:00 AM - 5:30 PM,Wildlife
+Odisha State Museum,Bhubaneswar,140,10:00 AM - 5:30 PM,Museum
+Barabati Fort,Bhubaneswar,70,9:00 AM - 5:30 PM,Heritage
+Barabati Stadium,Bhubaneswar,100,9:00 AM - 6:00 PM,Attraction
+Pipili Village,Bhubaneswar,150,9:00 AM - 6:00 PM,Attraction
+Chausathi Jogini Temple,Bhubaneswar,30,5:00 AM - 9:00 PM,Religious
+Bindu Sagar Lake,Bhubaneswar,60,6:00 AM - 6:00 PM,Nature
+Brahmeswara Temple,Bhubaneswar,30,5:00 AM - 9:00 PM,Religious
+Ananta Vasudeva Temple,Bhubaneswar,20,5:00 AM - 9:00 PM,Religious
+Ekamra Haat,Bhubaneswar,130,9:00 AM - 6:00 PM,Attraction
+Nicco Park Bhubaneswar,Bhubaneswar,660,10:00 AM - 7:00 PM,Amusement Park
+Jagannath Temple Ranchi,Ranchi,20,5:00 AM - 9:00 PM,Religious
+Rock Garden Ranchi,Ranchi,100,6:00 AM - 6:00 PM,Nature
+Kanke Dam,Ranchi,70,6:00 AM - 6:00 PM,Nature
+Dassam Falls,Ranchi,80,6:00 AM - 6:00 PM,Nature
+Hundru Falls,Ranchi,90,6:00 AM - 6:00 PM,Nature
+Jonha Falls,Ranchi,70,6:00 AM - 6:00 PM,Nature
+Tagore Hill,Ranchi,10,6:00 AM - 6:00 PM,Nature
+Birsa Zoological Park,Ranchi,180,7:00 AM - 5:30 PM,Wildlife
+State Museum Ranchi,Ranchi,90,10:00 AM - 5:30 PM,Museum
+Pahari Mandir,Ranchi,0,5:00 AM - 9:00 PM,Religious
+Jagannathpur Temple,Ranchi,0,5:00 AM - 9:00 PM,Religious
+Nakshatra Van,Ranchi,70,9:00 AM - 6:00 PM,Attraction
+Ranchi Lake,Ranchi,100,6:00 AM - 6:00 PM,Nature
+Patratu Valley,Ranchi,90,6:00 AM - 6:00 PM,Nature
+Patratu Dam,Ranchi,20,6:00 AM - 6:00 PM,Nature
+Sun Temple Ranchi,Ranchi,0,5:00 AM - 9:00 PM,Religious
+Dassam Falls Viewpoint,Ranchi,20,6:00 AM - 6:00 PM,Nature
+Birsa Munda Tribal University Museum,Ranchi,90,10:00 AM - 5:30 PM,Museum
+Deori Temple,Ranchi,50,5:00 AM - 9:00 PM,Religious
+Netarhat,Ranchi,80,9:00 AM - 6:00 PM,Attraction

@@ -1,0 +1,105 @@
+{
+  "name": "Hotel Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "operation": "getAll",
+        "tableId": "Hotels",
+        "returnAll": true
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        -32,
+        -16
+      ],
+      "id": "f9dd7b71-287e-4b5b-a344-bad48941fd33",
+      "name": "Get many rows",
+      "credentials": {
+        "supabaseApi": {
+          "id": "grgrsgwoUFwskyKU",
+          "name": "Supabase account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('When Executed by Another Workflow').first().json;\n\nconst city = String(input.city || '').trim().toLowerCase();\nconst budget = Number(input.budget || 0);\nconst minRating = Number(input.min_rating || 0);\n\nconst hotels = $input.all().map(item => item.json);\n\nconst filtered = hotels\n  .filter(h => {\n    const hotelCity = String(h.city || '').trim().toLowerCase();\n    const hotelCost = Number(h.cost);\n    const hotelRating = Number(h.rating);\n\n    return (\n      hotelCity === city &&\n      hotelCost <= budget &&\n      hotelRating >= minRating\n    );\n  })\n  .sort((a, b) => Number(b.rating) - Number(a.rating))\n  .slice(0, 5);\n\nreturn filtered.map(h => ({\n  json: {\n    hotel_id: h.hotel_id,\n    hotel_name: h.hotel_name,\n    city: h.city,\n    rating: h.rating,\n    cost: h.cost,\n    facilities: h.facilities\n  }\n}));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        192,
+        -16
+      ],
+      "id": "da86f323-8757-45ba-95e6-1b2c34ebc7de",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "workflowInputs": {
+          "values": [
+            {
+              "name": "city"
+            },
+            {
+              "name": "budget",
+              "type": "number"
+            },
+            {
+              "name": "min_rating",
+              "type": "number"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -224,
+        -16
+      ],
+      "id": "dbc7454d-fbf2-4d15-84fd-82ab9da612c2",
+      "name": "When Executed by Another Workflow"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Get many rows": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Get many rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "effaa1bd-fdcc-48dd-bd8b-24a67650f4b6",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "b160ecefec82cb8a1df84a9e22ced50664bb22834dbcff752f70b049e916d309"
+  },
+  "nodeGroups": [],
+  "id": "h4EaSSRvGEAwUfjv",
+  "tags": []
+}
