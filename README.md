@@ -12,8 +12,8 @@ flowchart TD
     UI <--> API[FastAPI Backend Server]
 
     subgraph AI_Layer [Intelligence & Voice Layer]
-        API <--> GeminiParser[Gemini Request Parser (Task A)]
-        API <--> GeminiItinerary[Gemini Itinerary Generator (Task B)]
+        API <--> GeminiParser["Gemini Request Parser (Task A)"]
+        API <--> GeminiItinerary["Gemini Itinerary Generator (Task B)"]
         API <--> GeminiCritic[Gemini Reflection / Critic]
         API <--> ElevenLabs[ElevenLabs Text-to-Speech]
     end
